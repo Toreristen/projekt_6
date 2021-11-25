@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --colorBackground: #1F361D;
+    --colorLight: #EFFDEC;
+    --colorCTA: #66FF66;
+
+    /* forslag til farve maybe */
+    --colorLightGreenTxt: #BAB892;;
+
+}
+
+body {
+    background-color: var(--colorBackground);
+}
+
+p {
+    color: var(--colorLightGreenTxt);
+}
+
+.wrap {
+    
+    display: grid;
+    grid-template-columns: 3fr 8fr;
+    grid-gap: 1fr;
+
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+/* #region  navigation */
+
+.nav {
+    
+    height: 100vh;
+}
+
+.nav__list {
+    position: fixed;
+    top: 0;
+    left: 10%;
+    /* background-color: hotpink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: center;
+    height: 100%;
+
+    list-style: none;
+    font-size: 36px;
+    
+}
+
+.nav__list a {
+    color: var(--colorLightGreenTxt);
+    text-decoration: none;
+
+    transition: .2s;
+}
+.nav__list a:hover {
+    color: var(--colorLightGreenTxt);
+    padding-left: 20px;
+}
+
+.nav__list-item-span {
+    color: grey;
+}
+
+
+
+/* #endregion */
+
+
+main {
+    background-color: limegreen;
+height: 1000px;
+
+
+}
+
+/* #region  colors */
+
+
+.colors {
+    background-color: firebrick;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    align-items: center;
+}
+
+.colors__cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.colors__figure {
+    width: 200px;
+    height: 200px;
+    background-color: var(--colorBackground);
+}
+
+.--primary {
+    
+    background-color: var(--colorBackground);
+}
+.--secondary {
+    
+    background-color: var(--colorLight);
+}
+
+.--call-to-action {
+    background-color: var(--colorCTA);
+}
+
+.--andet {
+    background-color: hotpink;
+}
+
+
+
+
+.colors__figcaption {
+    text-align: center;
+
+}
+
+
+
+/* #endregion */
+
+
+
+/* #region font */
+
+.font {
+    background-color: var(--colorBackground);
+    color: var(--colorLightGreenTxt);
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    align-items: center;
+    
+}
+
+
+
+
+/* #endregion */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
