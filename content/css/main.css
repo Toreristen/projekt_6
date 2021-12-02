@@ -1,13 +1,57 @@
+/*#region ............ ROOT ............................. */
 
+:root {
+    --primary-color: #a4c3b2;
+    --accent-color: #6b9080;
+    --accent-2-color: #cce3e4;
+    --primary-bg-color: #fdfdfd;
+    --secondary-bg-color: #eaf4f4;
+    --primary-txt-color: #23272a;
+    --secondary-txt-color: #fdfdfd;
+    --btn-color: #7289da;
+    --btn-hover: #4E5D94;
 
+    font-family: pelago, sans-serif;
+    font-size: 10px;
+}
 
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-
-
-
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* #endregion .............. END ROOT ..................*/
 
 /*#region ...................NAVIGATION.....................*/
 .nav {
     width: 100%;
 }
-/* #endregion */
+/* #endregion ..................END NAVIGATION..........*/
+
+/*#region ....................FOOTER...........................*/
+.footer {
+    width: 100vw;
+    background-color: #a4c3b2;
+}
+
+.footer__list {
+    list-style-type: none;
+    margin-top: 0;
+}
+
+.footer__list-item {
+    list-style-type: none;
+    margin-top: 0;
+}
+
+.footer__anchor {
+    text-decoration: none;
+    color: var(--primary-txt-color);
+}
+
+/*#endregion ...................END FOOTER......................*/ 
