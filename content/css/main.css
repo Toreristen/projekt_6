@@ -21,10 +21,12 @@ body {
     padding: 0;
 }
 
-ul {
+ul, p {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+
 /* #endregion .............. END ROOT ..................*/
 
 /*#region ...................NAVIGATION.....................*/
@@ -39,19 +41,65 @@ ul {
     background-color: #a4c3b2;
 }
 
+.footer__logo {
+    width: auto;
+    height: auto;
+    margin: 25px 0 12px 25px;
+}
+
+.footer__break {
+    border: 2px solid var(--accent-color);
+    margin: 0 0 27px 0;
+}
+
 .footer__list {
-    list-style-type: none;
-    margin-top: 0;
+    padding-left: 25px;
+    padding-bottom: 20px;
 }
 
 .footer__list-item {
     list-style-type: none;
-    margin-top: 0;
+    padding-right: 10px;
+    margin: 6px 0px;
 }
 
 .footer__anchor {
     text-decoration: none;
     color: var(--primary-txt-color);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.2rem;
 }
+
+.footer__anchor:hover {
+    text-decoration: underline;
+}
+
+.footer__arrow {
+    margin-right: 10px;
+}
+
+.footer__some {
+    display: flex;
+}
+
+.footer__some-logo {
+    color: var(--primary-txt-color);
+    font-size: 5rem;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+.footer__some-txt {
+    color: var(--primary-txt-color);
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin:29px 0px 0px 7px;
+    cursor: pointer;
+}
+
+.footer__some-txt:hover {
+    text-decoration: underline;
+    }
 
 /*#endregion ...................END FOOTER......................*/ 
