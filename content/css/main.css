@@ -40,7 +40,7 @@ ul, p {
     width: 100vw;
     height: 100px;
     position: fixed;
-    z-index: 7;
+    z-index: 9;
     /*display: none;*/
 }
 
@@ -70,14 +70,28 @@ ul, p {
 }
 
 .nav__menu {
-    background-color: var(--btn-color);
+    background-color: var(--primary-color);
     width: 100vw;
-    height: 100vw;
+    height: 100%;
     z-index: 8;
-    margin-top: 100px;
     /*display: none;*/
+    padding-top:100px;
+    position: fixed;
 }
 
+.nav__menu-list {
+    list-style: none;
+    padding-left: 25px;
+}
+
+.nav__menu-list-item {
+    text-decoration: none;
+    color: var(--primary-txt-color);
+    font-size: 3.2rem;
+    font-weight: 500;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
 
 /* #endregion .............END NAVIGATION......................*/
 
