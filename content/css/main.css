@@ -74,7 +74,7 @@ ul, p {
     width: 100vw;
     height: 100%;
     z-index: 8;
-    /*display: none;*/
+    display: none;
     padding-top:100px;
     position: fixed;
 }
@@ -91,6 +91,10 @@ ul, p {
     font-weight: 500;
     margin-top: 30px;
     text-transform: uppercase;
+}
+
+.nav__menu-list-item:hover {
+    text-decoration: underline;
 }
 
 /* #endregion .............END NAVIGATION......................*/
@@ -143,6 +147,10 @@ ul, p {
 
 .footer__some {
     display: flex;
+}
+
+.footer__some--active {
+    margin-top: 30px;
 }
 
 .footer__some-logo {
