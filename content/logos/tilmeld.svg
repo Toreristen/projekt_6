@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45.891" height="47.067" viewBox="0 0 45.891 47.067">
+  <g id="tilmeld" transform="translate(0)">
+    <text id="MEDLEM" transform="translate(22 34.067)" fill="#23272a" font-size="10" font-family="Pelago-Medium, Pelago" font-weight="500"><tspan x="-20.47" y="10">MEDLEM</tspan></text>
+    <path id="Icon_material-group" data-name="Icon material-group" d="M32.789,21.855c3.463,0,6.237-3.206,6.237-7.178S36.252,7.5,32.789,7.5s-6.258,3.206-6.258,7.178S29.327,21.855,32.789,21.855Zm-16.688,0c3.463,0,6.237-3.206,6.237-7.178S19.564,7.5,16.1,7.5s-6.258,3.206-6.258,7.178S12.639,21.855,16.1,21.855Zm0,4.785c-4.86,0-14.6,2.8-14.6,8.374V41H30.7V35.014C30.7,29.44,20.962,26.64,16.1,26.64Zm16.688,0c-.6,0-1.293.048-2.023.12a10.478,10.478,0,0,1,4.109,8.254V41H47.391V35.014C47.391,29.44,37.65,26.64,32.789,26.64Z" transform="translate(-1.5 -7.5)" fill="#23272a"/>
+  </g>
+</svg>
