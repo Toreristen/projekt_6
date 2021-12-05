@@ -11,11 +11,27 @@ html {
 :root {
 
     --colorBackground: #1F361D;
-    --colorLight: #EFFDEC;
-    --colorCTA: #66FF66;
+    /* --colorLight: #EFFDEC; */
+    
+    /* --colorCTA: #66FF66; */
 
     /* forslag til farve maybe */
-    --colorLightGreenTxt: #BAB892;
+    /* --colorLightGreenTxt: #BAB892; */
+
+
+    --colorBackground: #FDFDFD;
+    --color2ndBackground: #EAF4F4;
+
+    --colorText: #23272A;
+
+    --colorAccent: #6B9080;
+    --colorPrimary: #A4C3B2;
+
+    --colorBtn: #7289DA;
+    --colorBtnHover: #4E5D94;
+
+  
+    
 
 }
 
@@ -24,7 +40,7 @@ body {
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-    color: var(--colorLightGreenTxt);
+    color: var(--colorText);
 }
 
 .heading {
@@ -48,7 +64,6 @@ p, h1, h2, h3, h4, h5, h6 {
 /* #region  navigation */
 
 .nav {
-    
     height: 100vh;
 }
 
@@ -56,7 +71,7 @@ p, h1, h2, h3, h4, h5, h6 {
     position: fixed;
     top: 0;
     left: 10%;
-    /* background-color: hotpink; */
+    
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -69,13 +84,13 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .nav__list a {
-    color: var(--colorLightGreenTxt);
+    color: var(--colorText);
     text-decoration: none;
 
     transition: .2s;
 }
 .nav__list a:hover {
-    color: var(--colorLightGreenTxt);
+    color: var(--colorText);
     padding-left: 20px;
 }
 
@@ -88,11 +103,11 @@ p, h1, h2, h3, h4, h5, h6 {
 /* #endregion */
 
 main {
-    border-left: 5px solid var(--colorLight);
+    border-left: 5px solid var(--colorPrimary);
 }
 
 main article {
-    border-bottom: solid var(--colorLight);
+    border-bottom: solid var(--colorPrimary);
     padding-left: 20px;
 }
 
@@ -116,7 +131,7 @@ main article {
     width: 200px;
     height: 200px;
     background-color: var(--colorBackground);
-    border: 2px solid var(--colorLight);
+    border: 2px solid var(--colorPrimary);
 }
 
 .--primary {
@@ -125,11 +140,11 @@ main article {
 }
 .--secondary {
     
-    background-color: var(--colorLight);
+    background-color: var(--color2ndBackground);
 }
 
 .--call-to-action {
-    background-color: var(--colorCTA);
+    background-color: var(--colorBtn);
 }
 
 .--third {
@@ -154,7 +169,7 @@ main article {
 
 .font {
     background-color: var(--colorBackground);
-    color: var(--colorLightGreenTxt);
+    color: var(--colorText);
     display: grid;
     grid-template-rows: 1fr 5fr 1fr;
     align-items: center;
@@ -189,37 +204,39 @@ main article {
 
 .buttons a {
     text-decoration: none;
-    color: var(--colorCTA);
+    /* color: var(--colorText); */
+    color: var(--colorBackground);
+    background-color: var(--colorBtn);
     
-    border: 1px solid var(--colorCTA);
+    /* border: 1px solid var(--colorBtn); */
     border-radius: 6px;
-    padding: 12px;
+    padding: 4px;
     text-decoration: none;
+    font-weight: 700;
 }
 
 .buttons a:hover {
     transform: scale(1.1);
+    background-color: var(--colorBtnHover);
 }
 
 .buttons a:nth-child(2) {
-    color: var(--colorCTA);
     text-transform: uppercase;
-    font-weight: 700;
+    /* font-weight: 700; */
+    padding: 8px;
+
 }
 
 .buttons a:nth-child(3) {
-    color: var(--colorBackground);
-    border: none;
-    background-color: var(--colorCTA);
-    font-weight: 400;
+    padding: 12px;
+    /* font-weight: 400; */
 
 }
 
 .buttons a:nth-child(4) {
-    color: var(--colorBackground);
-    border: none;
-    background-color: var(--colorCTA);
-    font-weight: 700;
+    padding: 16px;
+
+    
     text-transform: uppercase;
 
 }
