@@ -1,13 +1,208 @@
+/*#region ............ ROOT ............................. */
+
+:root {
+    --primary-color: #a4c3b2;
+    --accent-color: #6b9080;
+    --accent-2-color: #cce3e4;
+    --primary-bg-color: #fdfdfd;
+    --secondary-bg-color: #eaf4f4;
+    --primary-txt-color: #23272a;
+    --secondary-txt-color: #fdfdfd;
+    --btn-color: #7289da;
+    --btn-hover: #4E5D94;
+
+    background-color: var(--primary-bg-color);
+
+    font-family: pelago, sans-serif;
+    font-size: 10px;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 
-
-
-
-
-
+/* #endregion .............. END ROOT ..................*/
 
 /*#region ...................NAVIGATION.....................*/
-.nav {
-    width: 100%;
+
+.nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    z-index: 9;
+    /*display: none;*/
 }
-/* #endregion */
+
+.nav__logo {
+    width: 40%;
+    max-width: 150px;
+    margin: 6px 0 15px 25px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-shrink: 1;
+    list-style: none;
+    margin: 0 25px 15px 0;
+    padding: 38px 0 0 0;
+}
+
+.nav__list-item {
+    margin-left: 25px;
+}
+
+.nav__img{
+    width: auto;
+    height: auto;
+}
+
+.nav__menu {
+    background-color: var(--primary-color);
+    width: 100vw;
+    height: 100%;
+    z-index: 8;
+    display: none;
+    padding-top:100px;
+    position: fixed;
+}
+
+.nav__menu-list {
+    list-style: none;
+    padding-left: 25px;
+}
+
+.nav__menu-list-item {
+    text-decoration: none;
+    color: var(--primary-txt-color);
+    font-size: 3.2rem;
+    font-weight: 500;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.nav__menu-list-item:hover {
+    text-decoration: underline;
+}
+
+/* #endregion .............END NAVIGATION......................*/
+
+/*#region ....................FOOTER...........................*/
+
+.footer {
+    width: 100vw;
+    background-color: #a4c3b2;
+}
+
+.footer__logo {
+    width: auto;
+    height: 91px;
+    margin: 25px 0 12px 25px;
+}
+
+.footer__break {
+    border: 2px solid var(--accent-color);
+    width: 100%;
+    margin: 0 0 27px 0;
+}
+
+.footer__list {
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+.footer__list-item {
+    list-style-type: none;
+    padding-right: 10px;
+    margin: 6px 0px;
+}
+
+.footer__anchor {
+    text-decoration: none;
+    color: var(--primary-txt-color);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.2rem;
+}
+
+.footer__anchor:hover {
+    text-decoration: underline;
+}
+
+.footer__arrow {
+    margin-right: 10px;
+}
+
+.footer__some {
+    display: flex;
+}
+
+.footer__some--active {
+    margin-top: 30px;
+}
+
+.footer__some-logo {
+    color: var(--primary-txt-color);
+    font-size: 5rem;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+.footer__some-txt {
+    color: var(--primary-txt-color);
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin:29px 0px 0px 7px;
+    cursor: pointer;
+}
+
+.footer__some-txt:hover {
+    text-decoration: underline;
+    }
+
+/*#endregion ...................END FOOTER......................*/ 
+
+/*#region ...................Media queries .................... */
+
+@media only screen and (max-width: 380px){
+
+/*#region .............. Navbar .........................*/
+.nav__logo {
+    max-width: 120px;
+    max-height: 60px;
+    margin-top: 20px;
+}
+
+/*#endregion .......... END NAVBAR ........................*/
+    
+}
+
+@media only screen and (max-width: 360px){
+
+    /*#region .............. Navbar .........................*/
+    .nav__logo {
+        max-width: 90px;
+        max-height: 40px;
+        margin-top: 40px;
+    }
+    
+    
+    
+    /*#endregion .......... END NAVBAR ........................*/
+    
+        
+    }
+
+/*#endregion ................. END MEDIA QUERIES .............. */

@@ -1,0 +1,8 @@
+<svg id="program" xmlns="http://www.w3.org/2000/svg" width="48" height="50.104" viewBox="0 0 48 50.104">
+  <text id="PROGRAM-2" data-name="PROGRAM" transform="translate(24 37.104)" fill="#23272a" font-size="10" font-family="Pelago-Medium, Pelago" font-weight="500"><tspan x="-23.82" y="10">PROGRAM</tspan></text>
+  <g id="Icon_ionic-ios-calendar" data-name="Icon ionic-ios-calendar" transform="translate(4)">
+    <path id="Path_5" data-name="Path 5" d="M39.529,6.75H35.683V9.126a.783.783,0,0,1-.769.792H33.375a.783.783,0,0,1-.769-.792V6.75H14.144V9.126a.783.783,0,0,1-.769.792H11.837a.783.783,0,0,1-.769-.792V6.75H7.221a3.916,3.916,0,0,0-3.846,3.961V37.644A3.916,3.916,0,0,0,7.221,41.6H39.529a3.916,3.916,0,0,0,3.846-3.961V10.711A3.916,3.916,0,0,0,39.529,6.75ZM40.3,36.456a1.958,1.958,0,0,1-1.923,1.98h-30a1.958,1.958,0,0,1-1.923-1.98V18.632a.783.783,0,0,1,.769-.792H39.529a.783.783,0,0,1,.769.792Z" transform="translate(-3.375 -4.5)" fill="#23272a"/>
+    <path id="Path_6" data-name="Path 6" d="M11.25,5.063a.564.564,0,0,0-.562-.562H9.563A.564.564,0,0,0,9,5.063V6.75h2.25Z" transform="translate(-1.135 -4.5)" fill="#23272a"/>
+    <path id="Path_7" data-name="Path 7" d="M27,5.063a.564.564,0,0,0-.562-.562H25.313a.564.564,0,0,0-.562.563V6.75H27Z" transform="translate(5.135 -4.5)" fill="#23272a"/>
+  </g>
+</svg>
