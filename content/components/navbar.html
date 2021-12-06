@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="https://use.typekit.net/egq1yjh.css">
     <script src="https://kit.fontawesome.com/bd8605f5df.js" crossorigin="anonymous"></script>
-    <script src="../js/menu.js"></script>
+    <script src="../js/menu.js" defer></script>
 </head>
 <body>
     <nav class="nav">
@@ -28,14 +28,15 @@
                     </a>
                 </li>
                 <li class="nav__list-item">
-                    <a href="" class="na__anchor">
-                        <img src="../logos/menu.svg" alt="tilmeld logo" class="nav__img">
+                    <a href="#" class="na__anchor">
+                        <img src="../logos/menu.svg" alt="menu icon" class="nav__img" id="hamburger">
+                        <img src="../logos/close-menu.svg" alt="close icon" class="nav__img" id="closeicon">
                     </a>
                 </li>
             </ul>
         </div>
 
-        <div class="nav__menu">
+        <div class="nav__menu" id="nav__menu">
             <ul class="nav__menu-list">
                 <li class="nav__menu-list-item">
                     <a href="" class="nav__menu-list-item">Program 21/22 <i class="fas fa-chevron-down"></i></a>

@@ -69,14 +69,21 @@ ul, p {
     height: auto;
 }
 
+
+
+
+#closeicon {
+    display: none;
+}
+
 .nav__menu {
     background-color: var(--primary-color);
     width: 100vw;
     height: 100%;
     z-index: 8;
-    display: none;
     padding-top:100px;
     position: fixed;
+    visibility: hidden;
 }
 
 .nav__menu-list {
