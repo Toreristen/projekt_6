@@ -24,6 +24,8 @@ html {
     --btn-color: #7289da;
     --btn-hover: #4E5D94;
 
+    font-size: 16px;
+
     /* background: rgb(204,227,228);
     background: linear-gradient(185deg, rgba(204,227,228,1) 0%, rgba(204,227,228,1) 84%, rgba(255,255,255,1) 84%); */
 
@@ -35,6 +37,7 @@ body {
 
 p, h1, h2, h3, h4, h5, h6 {
     color: var(--primary-txt-color);
+    
 }
 
 .heading {
@@ -55,11 +58,11 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* #region  navigation */
 
-.nav {
+.StyleguideNav {
     background-color: var(--primary-color);
 }
 
-.nav__list {
+.StyleguideNav__list {
     position: fixed;
     top: 0;
     left: 10%;
@@ -75,17 +78,17 @@ p, h1, h2, h3, h4, h5, h6 {
     
 }
 
-.nav__list a {
+.StyleguideNav__list a {
     color: var(--primary-txt-color);
     text-decoration: none;
 
     transition: .2s;
 }
-.nav__list a:hover {
+.StyleguideNav__list a:hover {
     padding-left: 20px;
 }
 
-.nav__list-item-span {
+.StyleguideNav__list-item-span {
     color: var(--accent-color);
 }
 
@@ -154,7 +157,6 @@ main article {
 
 .colors__figcaption {
     text-align: center;
-
 }
 
 
@@ -305,6 +307,27 @@ main article {
     width: 48px;
 }
 
+
+
+/* #region  navigation */
+.nav__menu {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 100%;
+    z-index: 8;
+    padding-top:100px;
+    position: relative;
+    visibility: hidden;
+}
+
+/* #endregion */
+
+
+.ui {
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    align-items: center;
+}
 
 
 @media only screen and (max-width: 1300px)  {
