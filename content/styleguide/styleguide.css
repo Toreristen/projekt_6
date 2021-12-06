@@ -39,11 +39,9 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .heading {
     font-size: 36px;
-    
 }
 
 .wrap {
-    
     display: grid;
     grid-template-columns: 3fr 8fr;
     grid-gap: 1fr;
