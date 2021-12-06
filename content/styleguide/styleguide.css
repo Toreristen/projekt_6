@@ -166,10 +166,8 @@ main article {
 /* #region font */
 
 .font {
-    background-color: var(--colorBackground);
-    color: var(--colorText);
     display: grid;
-    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
     align-items: center;
     
 }
@@ -177,6 +175,11 @@ main article {
 .font__txt1 {
     font-size: 14px;
     font-weight: 400;
+    font-family: pelago, sans-serif;
+}
+.font__txt2 {
+    font-size: 18px;
+    font-weight: 700;
     font-family: pelago, sans-serif;
 }
 
@@ -206,37 +209,41 @@ main article {
 .buttons a {
     text-decoration: none;
     /* color: var(--colorText); */
-    color: var(--colorBackground);
-    background-color: var(--colorBtn);
+    color: var(--secondary-txt-color);
+    background-color: var(--btn-color);
     
     /* border: 1px solid var(--colorBtn); */
     border-radius: 6px;
-    padding: 4px;
+    padding: 12px;
     text-decoration: none;
     font-weight: 700;
 }
 
 .buttons a:hover {
     transform: scale(1.1);
-    background-color: var(--colorBtnHover);
+    background-color: var(--btn-hover);
 }
 
 .buttons a:nth-child(2) {
     text-transform: uppercase;
     /* font-weight: 700; */
-    padding: 8px;
+    padding: 16px;
 
 }
 
 .buttons a:nth-child(3) {
-    padding: 12px;
     /* font-weight: 400; */
+    background-color: transparent;
+    color: var(--primary-txt-color);
+    border: 3px solid var(--btn-color);
 
 }
 
 .buttons a:nth-child(4) {
     padding: 16px;
-
+    background-color: transparent;
+    color: var(--primary-txt-color);
+    border: 3px solid var(--btn-color);
     
     text-transform: uppercase;
 
