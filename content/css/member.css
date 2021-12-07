@@ -34,10 +34,12 @@
 
 .header {
     font-size: var(--h1-fontsize);
+    font-weight: 600;
 }
 
 .smallheader {
     font-size: 26px;
+    font-weight: 600;
 }
 
 .bodytext {
