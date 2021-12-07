@@ -85,12 +85,54 @@ padding: 25px 25px;
     padding-bottom: 80px;
 }
 
+
 .contact__info__header {
     padding: 25px 20px;
 }
 
-.contact__form {
+.contact__info__form {
+    justify-content: center;
+    margin: 0 25px;
+}
+
+.contact__form__name {
     display: flex;
     justify-content: center;
-    padding: 0px 25px;
+    gap: 10px;
+    width: 100%;
+
+}
+
+
+.contact__name {
+    display:flex; 
+    width: 100%;
+}
+.contact__input {
+    width: 100%;
+ 
+}
+
+.contact__textform {
+    width: 100%;
+}
+
+.input__form {
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+
+.contactform__textform__button {
+width: 112px;
+height: 34px;
+padding: 5px 31px;
+background-color: var(--btn-color);
+border: none;
+border-radius: 2px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: var(--secondary-txt-color);
+float: right;
 }
