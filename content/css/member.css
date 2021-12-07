@@ -72,11 +72,10 @@ margin-left: auto;
 
 .call-erna__wrapper {
     background-image: url("gfx/erna.png");
-    width: 99%;
+    width: 100%;
     background-repeat: no-repeat;
-    border: 1px solid white; 
+    /*border: 1px solid white;*/
     position: relative;
-
 }
 
 
@@ -106,6 +105,8 @@ margin-left: auto;
 
 .call-erna__description {
     padding: 25px 25px 0 25px;
+    font-size: 1.6rem;
+    font-weight: 400;
 }
 
 .erna-padding{
