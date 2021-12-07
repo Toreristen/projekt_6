@@ -1,0 +1,96 @@
+/*:root {
+    --primary-color: #a4c3b2;
+    --accent-color: #6b9080;
+    --accent-2-color: #cce3e4;
+    --primary-bg-color: #fdfdfd;
+    --secondary-bg-color: #eaf4f4;
+    --primary-txt-color: #23272a;
+    --secondary-txt-color: #fdfdfd;
+    --btn-color: #7289da;
+    --btn-hover: #4E5D94;
+    --h1-fontsize: 32px;
+    --h2-fontsize: 26px;
+    --p-fontsize: 16px;
+    font-family: pelago, sans-serif;
+    font-size: 10px;
+}*/
+
+:root {
+    --member-text-fontsize: 20px;
+}
+
+.about-us__wrapper {
+    padding: 0 25px;
+}
+
+.header {
+    margin-bottom: 15px;
+}
+.bodytext {
+    margin-bottom: 15px;
+}
+
+.team__wrapper {
+    background-color: var(--secondary-bg-color);
+    padding: 36px 25px;
+}
+
+.team__wrapper-header {
+    text-align: center;
+    margin-top: 25px;
+}
+.team__wrapper-bodytext {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+
+.image-fluid {
+    width: 100%;
+    
+}
+
+.teammembers__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.teammembers__member-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+ 
+}
+
+.contact__wrapper {
+padding: 25px 25px;
+}
+
+.contact__info__wrapper {
+    display: flex;
+    background: rgb(204,227,228);
+    background: linear-gradient(186deg, rgba(204,227,228,1) 78%, rgba(255,255,255,1) 79%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 80px;
+}
+
+.contact__info__header {
+    padding: 25px 20px;
+}
+
+.contact__form {
+    display: flex;
+    justify-content: center;
+    padding: 0px 25px;
+}
