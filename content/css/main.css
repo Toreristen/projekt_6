@@ -109,6 +109,7 @@ ul, p {
 .footer {
     width: 100vw;
     background-color: #a4c3b2;
+    margin-top: 80px;
 }
 
 .footer__logo {
