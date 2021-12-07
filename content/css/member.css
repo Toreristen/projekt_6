@@ -103,6 +103,12 @@ margin-left: auto;
     left: 0;
 }
 
+.call-erna__description-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
 .call-erna__description {
     padding: 25px 25px 0 25px;
     font-size: 1.6rem;
@@ -113,7 +119,7 @@ margin-left: auto;
     padding: 5px 25px 0 25px;
 }
 .call-erna__email {
-    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 
