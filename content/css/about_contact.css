@@ -1,57 +1,66 @@
-/*:root {
-    --primary-color: #a4c3b2;
-    --accent-color: #6b9080;
-    --accent-2-color: #cce3e4;
-    --primary-bg-color: #fdfdfd;
-    --secondary-bg-color: #eaf4f4;
-    --primary-txt-color: #23272a;
-    --secondary-txt-color: #fdfdfd;
-    --btn-color: #7289da;
-    --btn-hover: #4E5D94;
-    --h1-fontsize: 32px;
-    --h2-fontsize: 26px;
-    --p-fontsize: 16px;
-    font-family: pelago, sans-serif;
-    font-size: 10px;
-}*/
 
 :root {
     --member-text-fontsize: 20px;
 }
-
+/*#region ............ about................. */
 .about-us__wrapper {
     padding: 0 25px;
-    padding-top: 115px;
+    padding-top: 125px;
 }
 
-.header {
-    margin-bottom: 15px;
-    font-weight: semi-bold;
-}
-.bodytext {
-    margin-bottom: 15px;
+.about-us__header {
+    color: var(--primary-txt-color);
+    font-size: 3.2rem;
+    font-weight: 600;
 }
 
-.team__wrapper {
+.about-us__header-small {
+    color: var(--primary-txt-color);
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.about-us__txt {
+    color: var(--primary-txt-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.about-us__txt--margin {
+    margin-bottom: 50px;
+}
+
+/*#endregion ............ about...................*/
+
+.team-wrapper {
     background: linear-gradient(185deg, rgba(204,227,228,1) 0%, rgba(204,227,228,1) 90%, rgba(255,255,255,1) 90%);
-    padding: 36px 25px;
-    height: 1464px;
+    padding: 25px 25px;
+    height: 1420px;
 }
 
-.team__wrapper-header {
+.team-wrapper__intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-wrapper__header {
     text-align: center;
     margin-top: 25px;
+    color: var(--primary-txt-color);
+    font-size: 3.2rem;
+    font-weight: 600;
 }
-.team__wrapper-bodytext {
+.team-wrapper__txt {
     text-align: center;
     padding-bottom: 15px;
+    color: var(--primary-txt-color);
+    font-size: 1.6rem;
+    font-weight: 400;
 }
-
-
 
 .image-fluid {
     width: 100%;
-    
 }
 
 .teammembers__wrapper {
@@ -70,7 +79,18 @@
     justify-content: center;
     align-items: center;
     text-align: center;
- 
+}
+
+.teammember__name {
+    color: var(--primary-txt-color);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.teammember__info {
+    color: var(--primary-txt-color);
+    font-size: 1.6rem;
+    font-weight: 400;
 }
 
 .contact__wrapper {
