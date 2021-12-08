@@ -84,8 +84,15 @@ ul, p {
     z-index: 8;
     padding-top:100px;
     position: fixed;
-    visibility: hidden;
+    /*visibility: hidden;*/
+    transform: translateX(100%);
+    transition: 0.3s;
+
     
+}
+
+.show__menu {
+    transform: translateX(0);
 }
 
 .nav__menu-list {
@@ -104,6 +111,34 @@ ul, p {
 
 .nav__menu-list-item:hover {
     text-decoration: underline;
+}
+
+.nav__dropdown {
+    list-style: none;
+    margin-left: 20px;
+    transform: translateY(-100%);
+    transition: 0.3;
+}
+
+.show__dropdown {
+    transform: translateY(0);
+}
+
+.nav__dropdown-arrow {
+    color: var(--primary-txt-color);
+}
+
+.nav__dropdown-arrow-2 {
+    color: var(--primary-txt-color);
+}
+
+.nav__dropdown-item {
+    text-decoration: none;
+    color: var(--primary-txt-color);
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 5px;
 }
 
 /* #endregion .............END NAVIGATION......................*/

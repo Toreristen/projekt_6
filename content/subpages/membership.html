@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/egq1yjh.css">
     <script src="https://kit.fontawesome.com/bd8605f5df.js" crossorigin="anonymous"></script>
     <script src="../js/menu.js" defer></script>
+    <script src="../js/dropdown.js" defer></script>
     <title>Membership</title>
 </head>
 
@@ -48,8 +49,19 @@
                     <a href="../../index.html" class="nav__menu-list-item">Forside</a>
                 </li>
                 <li class="nav__menu-list-item">
-                    <a href="../subpages/program.html" class="nav__menu-list-item">Program 21/22 <i class="fas fa-chevron-down"></i></a>
+                    <a href="../subpages/program.html" class="nav__menu-list-item">Program 21/22 
+                        <a class="nav__dropdown-arrow" href="#"><i class="fas fa-chevron-down"></i></a>
+                        <a class="nav__dropdown-arrow-2" href="#"><i class="fas fa-chevron-up"></i></a>
+                    </a>
                 </li>
+                    <ul class="nav__dropdown">
+                        <li class="nav__dropdown-item">
+                            <a class="nav__dropdown-item" href="">aktuelle program</a>
+                        </li>
+                        <li class="nav__dropdown-item">
+                            <a class="nav__dropdown-item" href="">Tidligere programmer</a>
+                        </li>
+                    </ul>
                 <li class="nav__menu-list-item">
                     <a href="../subpages/membership.html" class="nav__menu-list-item">bliv medlem</a>
                 </li>

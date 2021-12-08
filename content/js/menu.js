@@ -9,7 +9,7 @@ const signUpIcon = document.querySelector("#signup-icon");
 menu.style.visibility = "hidden";
 
 function toggleMenu() {
-    console.log("function works")
+    //console.log("function works")
     
     if (menu.style.visibility === "hidden") {
         menu.classList.add("showMenu");
@@ -18,6 +18,7 @@ function toggleMenu() {
         closeIcon.style.display = "initial";
         programmeIcon.style.display = "none";
         signUpIcon.style.display = "none";
+        menu.classList.add("show__menu")
     }
     else {
         menu.style.visibility = "hidden";
@@ -26,6 +27,7 @@ function toggleMenu() {
         hamburger.style.display = "initial";
         programmeIcon.style.display = "initial";
         signUpIcon.style.display = "initial";
+        menu.classList.remove("show__menu")
     }
 }
 
