@@ -6,18 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href=..css/slideshow.css"">
     <script src="../js/slide.js" defer></script>
 </head>
 
 <body>
-    <div id="slideshow">
-        <button class="prev" id="prev" onclick="prev()">previous</button>
-        <div id="element">
-            <img id="slider" src="" alt="">
+    <div class="slideshow__wrapper">
+
+        <div class="slideshow__description__wrapper">
+            <h2 class="slideshow__description__header bodytext_color" id="slideshow_heading">Sang aften</h2>
+            <p class="slideshow__description__bodytext bodytext_color" id="slideshow_bodytext">Oplev en
+                hyggelig sangaften med<br>Jørgen Carlsen
+                d.15/9</p>
+
+            <a class="slideshow__showmore" href="#">Se mere</a>
         </div>
 
-        <button class="next" id="next" onclick="nexte()">next</button>
+        <div class="slideshow__picture">
+
+            <img id="slider" src="" alt="">
+        </div>
+        <div class="dots__wrapper">
+
+            <a id="dot1" class="dots" onclick="firstDot()"></a>
+            <a id="dot2" class="dots" onclick="secondDot()"></a>
+            <a id="dot3" class="dots" onclick="thirdDot()"></a>
+        </div>
     </div>
 </body>
 
