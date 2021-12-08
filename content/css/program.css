@@ -20,15 +20,71 @@
 
 
 
-
 .program__calendar-calendar {
-    
-    height: 60vh;
+    height: 50vh;
+    font-size: 14px;
+}
+
+.program__sort {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: var(--accent-2-color);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.program__sort div {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.program__sort div p a {
+    color: var(--primary-txt-color);
+}
+
+.program__sort div select {
+    padding: 6px;
 }
 
 
+.program__more {
+    text-align: center;
+    font-size: 22px;
+    
+}
+
+.program__more a {
+    color: var(--primary-txt-color);
+    text-decoration: none;
+    font-weight: 600;
+
+}
 
 
+/* #region  change from frontpage.css */
+.program {
+    width: 100%;
+    height: 100%;
+    background: var(--primary-bg-color);
+}
 
 
+.program__intro {
+    color: var(--primary-txt-color);
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
 
+.program__card {
+    width: auto;
+    height: auto;
+    margin: 0;
+    background-color: var(--secondary-bg-color);
+    border-radius: 5px;
+    box-shadow: 1px 2px #23272a22;
+}
+
+/* #endregion */
