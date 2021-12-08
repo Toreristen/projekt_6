@@ -5,7 +5,7 @@ let image = document.getElementById("slider");
 
 let eventHeading = ["Sang aften", "Klimaet i fremtiden", "Pandemier"];
 let eventBodytext = ["Oplev en hyggelig sangaften med\n Jørgen Carlsen d.15/9",
-    "Oplev et fordrag med Jesper Theilgaard\n om den fremtidig klimasituation. "
+    "Oplev et fordrag med Jesper Theilgaard\n om den fremtidig klimasituation."
     , "Oplev et foredrag med Hans Jørn Kolmos \n omkring pandemier."
 ];
 
