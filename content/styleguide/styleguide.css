@@ -319,6 +319,10 @@ main article {
     visibility: hidden;
 }
 
+.nav__codesnippet {
+    margin-top: -700px;
+}
+
 /* #endregion */
 
 
