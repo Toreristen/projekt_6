@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
     <nav class="nav">
 
         <div class="nav__wrapper">
@@ -25,12 +24,12 @@
                         
             <ul class="nav__list">
                 <li class="nav__list-item">
-                    <a href="../subpages/membership.html" class="nav__anchor">
+                    <a href="../subpages/program.html" class="nav__anchor">
                         <img class="nav__img" src="../logos/program.svg" alt="program logo" id="program-icon">
                     </a>
                 </li>
                 <li class="nav__list-item">
-                    <a href="" class="na__anchor">
+                    <a href="../subpages/membership.html" class="na__anchor">
                         <img src="../logos/tilmeld.svg" alt="tilmeld logo" class="nav__img" id="signup-icon">
                     </a>
                 </li>
@@ -46,25 +45,25 @@
         <div class="nav__menu" id="nav__menu">
             <ul class="nav__menu-list">
                 <li class="nav__menu-list-item">
-                    <a href="" class="nav__menu-list-item">Forside</a>
+                    <a href="../../index.html" class="nav__menu-list-item">Forside</a>
                 </li>
                 <li class="nav__menu-list-item">
-                    <a href="" class="nav__menu-list-item">Program 21/22 <i class="fas fa-chevron-down"></i></a>
+                    <a href="../subpages/program.html" class="nav__menu-list-item">Program 21/22 <i class="fas fa-chevron-down"></i></a>
                 </li>
                 <li class="nav__menu-list-item">
-                    <a href="" class="nav__menu-list-item">bliv medlem</a>
+                    <a href="../subpages/membership.html" class="nav__menu-list-item">bliv medlem</a>
                 </li>
                 <li class="nav__menu-list-item">
-                    <a href="" class="nav__menu-list-item">om os</a>
+                    <a href="../subpages/about.html" class="nav__menu-list-item">om os</a>
                 </li>
                 <li class="nav__menu-list-item">
-                    <a href="" class="nav__menu-list-item">vores historie</a>
+                    <a href="#" class="nav__menu-list-item">vores historie</a>
                 </li>
                 <li class="nav__menu-list-item">
-                    <a href="" class="nav__menu-list-item">vores vedtægter</a>
+                    <a href="#" class="nav__menu-list-item">vores vedtægter</a>
                 </li>
                 <li class="nav__menu-list-item">
-                    <a href="" class="nav__menu-list-item">kontakt os</a>
+                    <a href="../subpages/contact.html" class="nav__menu-list-item">kontakt os</a>
                 </li>
             </ul>
             <div class="footer__some footer__some--active">
@@ -75,36 +74,39 @@
         
     </nav>
 
-    <section class="contact__wrapper">
-        <h1 class="contact__header header">Kontakt os</h1>
-        <p class="contact__bodytext bodytext">Er du i tvivl om hvordan du skal tilmelde dig eller brænder du inde med
+    <section class="contact">
+        <h1 class="contact__header">Kontakt os</h1>
+        <p class="contact__txt">Er du i tvivl om hvordan du skal tilmelde dig eller brænder du inde med
             andre spørgsmål?
             Tøv ikke med at kontakte os, og så hjælper vi dig hellere end gerne.</p>
     </section>
 
-
-    <section class="contact__info__wrapper">
-        <div class="teammembers__members">
-            <div id="image-fluid">
-                <img src="../img/placeholder/anne.png" alt="anne">
+    <article class="contact-bg">
+        <section class="teammembers__wrapper">
+            <div class="teammembers__member-card">
+                <div id="image-fluid">
+                    <img src="../img/placeholder/anne.png" alt="anne">
+                </div>
+                <h2 class="teammember__name">Anne-Grethe Elkær</h2>
+                <p class="teammember__info">Sekretær<br>
+                    kasserer@oh-odense.dk<br>
+                    Tlf: 6617 9293</p>
             </div>
-            <h2 class="teammember__name">Anne-Grethe Elkær</h2>
-            <p class="teammembr__information bodytext">Sekretær<br>
-                kasserer@oh-odense.dk<br>
-                Tlf: 6617 9293</p>
-        </div>
-        <div class="teammembers__members">
-            <div id="image-fluid">
-                <img src="../img/placeholder/erna_member.png" alt="erna">
+            <div class="teammembers__member-card">
+                <div id="image-fluid">
+                    <img src="../img/placeholder/erna_member.png" alt="erna">
+                </div>
+                <h2 class="teammember__name">Erna Overgaard</h2>
+                <p class="teammember__info">Kasserer<br>
+                    kasserer@oh-odense.dk<br>
+                    Tlf: 6160 5407</p>
             </div>
-            <h2 class="teammember__name">Erna Overgaard</h2>
-            <p class="teammembr__information bodytext">Kasserer<br>
-                kasserer@oh-odense.dk<br>
-                Tlf: 6160 5407</p>
-        </div>
-    </section>
-    <section class="contact__info__form">
-        <h2 class="contact__info__header smallheader">Du kan også skrive til os her</h2>
+    
+        </section>
+    </article>
+    
+    <section class="contact-form">
+        <h2 class="contact__header">Du kan også skrive til os her</h2>
 
         <form class="contact__form">
             <div class="contact__form__name">
@@ -121,20 +123,21 @@
 
         </form>
         <div class="contact__send__btn">
-            <button class="contactform__textform__button">Send</button>
+            <button class="contactform-textform__button">Send</button>
         </div>
     </section>
+
     <footer class="footer">
         <img class="footer__logo" src="../logos/logo_design_oh_green.png" alt="logo">
         
         <hr class="footer__break">
         <ul class="footer__list">
             <li class="footer__list-item">
-                <a class="footer__anchor" href="#"><i class="fas fa-chevron-right footer__arrow"></i>program 21/22</a>
+                <a class="footer__anchor" href="../subpages/program.html"><i class="fas fa-chevron-right footer__arrow"></i>program 21/22</a>
             </li>
 
             <li class="footer__list-item">
-                <a class="footer__anchor" href="#"><i class="fas fa-chevron-right footer__arrow"></i>tidligere programmer</a>
+                <a class="footer__anchor" href="../subpages/program.html"><i class="fas fa-chevron-right footer__arrow"></i>tidligere programmer</a>
             </li>
 
             <li class="footer__list-item">
@@ -142,7 +145,7 @@
             </li>
 
             <li class="footer__list-item">
-                <a class="footer__anchor" href="#"><i class="fas fa-chevron-right footer__arrow"></i>vores historie</a>
+                <a class="footer__anchor" href="../subpages/about.html"><i class="fas fa-chevron-right footer__arrow"></i>vores historie</a>
             </li>
 
             <li class="footer__list-item">
@@ -150,7 +153,7 @@
             </li>
 
             <li class="footer__list-item">
-                <a class="footer__anchor" href="#"><i class="fas fa-chevron-right footer__arrow"></i>vores vedtægter</a>
+                <a class="footer__anchor" href="../subpages/about.html"><i class="fas fa-chevron-right footer__arrow"></i>vores vedtægter</a>
             </li>
 
             <li class="footer__list-item">

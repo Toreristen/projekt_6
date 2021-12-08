@@ -149,4 +149,10 @@
     margin-bottom: 25px;
 }
 
+.call-erna__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /*#endregion .................... END MEMBERSHIP ............*/

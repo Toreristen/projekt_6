@@ -33,6 +33,8 @@
 
 /*#endregion ............ about...................*/
 
+/*#region ................ team...............*/
+
 .team-wrapper {
     background: linear-gradient(185deg, rgba(204,227,228,1) 0%, rgba(204,227,228,1) 90%, rgba(255,255,255,1) 90%);
     padding: 25px 25px;
@@ -93,9 +95,24 @@
     font-weight: 400;
 }
 
-.contact__wrapper {
+/*#endregion .................. end team............ */
+
+/*#region ...........contact.................. */
+.contact {
     padding: 25px 25px;
     padding-top: 125px;
+}
+
+.contact__header {
+    color: var(--primary-txt-color);
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.contact__txt {
+    color: var(--primary-txt-color);
+    font-size: 1.6rem;
+    font-weight: 400;
 }
 
 .contact__info__wrapper {
@@ -109,14 +126,23 @@
     padding-bottom: 80px;
 }
 
-
-.contact__info__header {
-    padding: 25px 20px;
+.contact-bg {
+    background: linear-gradient(185deg, rgba(204,227,228,1) 0%, rgba(204,227,228,1) 90%, rgba(255,255,255,1) 90%);
+    padding: 5px 25px;
+    height: 320px;
 }
 
-.contact__info__form {
+
+.contact__header {
+    color: var(--primary-txt-color);
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact-form {
     justify-content: center;
-    margin: 0 25px;
+    margin: 50px 25px;
 }
 
 .contact__form__name {
@@ -124,9 +150,7 @@
     justify-content: center;
     gap: 10px;
     width: 100%;
-
 }
-
 
 .contact__name {
     display:flex; 
@@ -134,7 +158,6 @@
 }
 .contact__input {
     width: 100%;
- 
 }
 
 .contact__textform {
@@ -147,11 +170,16 @@
 }
 
 
-.contactform__textform__button {
-width: 112px;
-height: 34px;
-padding: 5px 31px;
+.contactform-textform__button {
+width: 160px;
+height: 42px;
+/*padding: 5px 31px;*/
+font-size: 2.2rem;
+font-weight: 600;
+text-transform: uppercase;
 background-color: var(--btn-color);
+border-radius: 5px;
+box-shadow: 1px 2px #23272a66;
 border: none;
 border-radius: 2px;
 display: flex;
@@ -160,3 +188,5 @@ align-items: center;
 color: var(--secondary-txt-color);
 float: right;
 }
+
+/*#endregion .................end contact............*/
