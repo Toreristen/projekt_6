@@ -18,16 +18,18 @@
     <nav class="nav">
 
         <div class="nav__wrapper">
-            <img src="../logos/logo_design_oh_green.png" alt="logo" class="nav__logo">
-
+            <a href="../../index.html" class="nav__logo">
+                <img src="../logos/logo_design_oh_green.png" alt="logo" class="nav__logo nav__logo--active">
+            </a>
+                        
             <ul class="nav__list">
                 <li class="nav__list-item">
-                    <a href="" class="nav__anchor">
+                    <a href="../subpages/program.html" class="nav__anchor">
                         <img class="nav__img" src="../logos/program.svg" alt="program logo" id="program-icon">
                     </a>
                 </li>
                 <li class="nav__list-item">
-                    <a href="" class="na__anchor">
+                    <a href="../subpages/membership.html" class="na__anchor">
                         <img src="../logos/tilmeld.svg" alt="tilmeld logo" class="nav__img" id="signup-icon">
                     </a>
                 </li>
@@ -43,25 +45,25 @@
         <div class="nav__menu" id="nav__menu">
             <ul class="nav__menu-list">
                 <li class="nav__menu-list-item">
-                    <a href="" class="nav__menu-list-item">Forside</a>
+                    <a href="../../index.html" class="nav__menu-list-item">Forside</a>
                 </li>
                 <li class="nav__menu-list-item">
-                    <a href="" class="nav__menu-list-item">Program 21/22 <i class="fas fa-chevron-down"></i></a>
+                    <a href="../subpages/program.html" class="nav__menu-list-item">Program 21/22 <i class="fas fa-chevron-down"></i></a>
                 </li>
                 <li class="nav__menu-list-item">
-                    <a href="" class="nav__menu-list-item">bliv medlem</a>
+                    <a href="../subpages/membership.html" class="nav__menu-list-item">bliv medlem</a>
                 </li>
                 <li class="nav__menu-list-item">
-                    <a href="" class="nav__menu-list-item">om os</a>
+                    <a href="../subpages/about.html" class="nav__menu-list-item">om os</a>
                 </li>
                 <li class="nav__menu-list-item">
-                    <a href="" class="nav__menu-list-item">vores historie</a>
+                    <a href="#" class="nav__menu-list-item">vores historie</a>
                 </li>
                 <li class="nav__menu-list-item">
-                    <a href="" class="nav__menu-list-item">vores vedtægter</a>
+                    <a href="#" class="nav__menu-list-item">vores vedtægter</a>
                 </li>
                 <li class="nav__menu-list-item">
-                    <a href="" class="nav__menu-list-item">kontakt os</a>
+                    <a href="../subpages/contact.html" class="nav__menu-list-item">kontakt os</a>
                 </li>
             </ul>
             <div class="footer__some footer__some--active">
@@ -71,57 +73,67 @@
         </div>
         
     </nav>
-    <div class="member-price__wrapper">
-        <!--membership-->
 
+    <article class="membership">
+
+        <!--membership-->
         <section class="membership__wrapper">
-            <h1 class="membership__header header">Bliv medlem</h1>
-            <p class="membership__text bodytext">Ønsker du at blive medlem af Odense Højskoleforening, <br>
+            <h1 class="membership__header">Bliv medlem</h1>
+            <p class="membership__txt membership__txt--margin">Ønsker du at blive medlem af Odense Højskoleforening, <br>
                 kan indmeldelse kan ske ved møderne eller til<br>
                 kassereren.
                 Se nedenunder for kontakt til Erna, vores kasserer.</p>
         </section>
 
         <!--price-->
-        <section class="price__wrapper">
-            <h2 class="price__header smallheader">Priser</h2>
+        <section class="price">
+            <h2 class="price__header">Priser</h2>
 
-            <div class="price__section__wrapper">
-                <p class="price__section__text bodytext">Årskontigent</p>
-                <p class="price__section__prices bodytext">200kr pr. person</p>
+            <div class="price__section">
+                <p class="price__section-txt">Årskontigent</p>
+                <p class="price__section-txt">200kr pr. person</p>
             </div>
 
             <!--fordrag-->
-            <div class="price__section__wrapper">
-                <p class="price__section__text bodytext">Fordragsaften (ikke medlem)</p>
-                <p class="price__section__prices bodytext">50kr pr. person</p>
+            <div class="price__section">
+                <p class="price__section-txt">Fordragsaften (ikke medlem)</p>
+                <p class="price__section-txt">50kr pr. person</p>
             </div>
 
             <!--fordrag-->
-            <div class="price__section__wrapper">
-                <p class="price__section__text bodytext">Fælles kagebord til arrangement</p>
-                <p class="price__section__prices bodytext">30kr pr. person</p>
+            <div class="price__section">
+                <p class="price__section-txt">Fælles kagebord til arrangement</p>
+                <p class="price__section-txt">30kr pr. person</p>
             </div>
         </section>
 
-        <h2 class="call-erna__header smallheader">Ring eller skriv til Erna</h2>
-    </div>
+        
+    </article>
 
-    <section class="call-erna__wrapper">
+    <section class="call-erna">
+        <h2 class="call-erna__header">
+            Ring eller skriv til Erna
+        </h2>
+        
+        <div class="call-erna__wrapper">
+            <img class="erna-image" src="../img/placeholder/erna.png" alt="image-of-erna">
 
-        <img class="erna-image" src="../img/placeholder/erna.png" alt="image-of-erna">
-
-
-        <div class="call-erna__overlay">
-            <p class="call-erna__description">Ring og tag en snak med Erna og bliv klogere på vores forening
-                og hvad vi kan tilbyde dig. <br>
-                Erna vil med glæde svare på alle de spørgsmål du har, så du kan
-                finde ud af om Odense Højskole er noget for dig.</p>
-            <h3 class="call-erna__name name erna-padding">Erna Overgaard</h2>
-                <p class="call-erna__kassere bodytext erna-padding">Kassere</p>
-                <p class="call-erna__phonenumber bodytext erna-padding">+45 12 34 56 78</p>
-                <p class="call-erna__email bodytext erna-padding">Kassere@oh.dk</p>
+            <div class="call-erna__overlay">
+                <p class="call-erna__txt">Ring og tag en snak med Erna og bliv klogere på vores forening
+                    og hvad vi kan tilbyde dig. <br>
+                    Erna vil med glæde svare på alle de spørgsmål du har, så du kan
+                    finde ud af om Odense Højskole er noget for dig.
+                </p>
+                <div class="call-erna__info">
+                    <h3 class="call-erna__name name erna-padding">Erna Overgaard</h2>
+                    <p class="call-erna__info-txt">Kasserer</p>
+                    <p class="call-erna__info-txt"><i class="fas fa-phone-alt"></i> +45 12 34 56 78</p>
+                    <p class="call-erna__info-txt"><i class="fas fa-envelope"></i> Kassere@oh.dk</p>
+                </div>
+                
+            </div>
         </div>
+        
     </section>
 
     <footer class="footer">
@@ -130,11 +142,11 @@
         <hr class="footer__break">
         <ul class="footer__list">
             <li class="footer__list-item">
-                <a class="footer__anchor" href="#"><i class="fas fa-chevron-right footer__arrow"></i>program 21/22</a>
+                <a class="footer__anchor" href="../subpages/program.html"><i class="fas fa-chevron-right footer__arrow"></i>program 21/22</a>
             </li>
 
             <li class="footer__list-item">
-                <a class="footer__anchor" href="#"><i class="fas fa-chevron-right footer__arrow"></i>tidligere programmer</a>
+                <a class="footer__anchor" href="../subpages/program.html"><i class="fas fa-chevron-right footer__arrow"></i>tidligere programmer</a>
             </li>
 
             <li class="footer__list-item">
@@ -142,7 +154,7 @@
             </li>
 
             <li class="footer__list-item">
-                <a class="footer__anchor" href="#"><i class="fas fa-chevron-right footer__arrow"></i>vores historie</a>
+                <a class="footer__anchor" href="../subpages/about.html"><i class="fas fa-chevron-right footer__arrow"></i>vores historie</a>
             </li>
 
             <li class="footer__list-item">
@@ -150,7 +162,7 @@
             </li>
 
             <li class="footer__list-item">
-                <a class="footer__anchor" href="#"><i class="fas fa-chevron-right footer__arrow"></i>vores vedtægter</a>
+                <a class="footer__anchor" href="../subpages/about.html"><i class="fas fa-chevron-right footer__arrow"></i>vores vedtægter</a>
             </li>
 
             <li class="footer__list-item">

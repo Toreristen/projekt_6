@@ -1,128 +1,111 @@
-:root {
-    --primary-color: #a4c3b2;
-    --accent-color: #6b9080;
-    --accent-2-color: #cce3e4;
-    --primary-bg-color: #fdfdfd;
-    --secondary-bg-color: #eaf4f4;
-    --primary-txt-color: #23272a;
-    --secondary-txt-color: #fdfdfd;
-    --btn-color: #7289da;
-    --btn-hover: #4E5D94;
-    --h1-fontsize: 32px;
-    --h2-fontsize: 26px;
-    --p-fontsize: 16px;
-    font-family: pelago, sans-serif;
-    font-size: 10px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-  
-}
-
-
-
-.member-price__wrapper {
+/*#region ................membership & price............... */
+.membership {
  margin: 0 25px;
  padding-top: 115px;
 }
-/*membership */
+
 .membership__header {
-    padding: 10px 0;
-}
-
-.header {
-    font-size: var(--h1-fontsize);
+    margin-top: 10px;
+    font-size: 3.2rem;
     font-weight: 600;
+    color: var(--primary-txt-color);
 }
 
-.smallheader {
-    font-size: 26px;
-    font-weight: 600;
+.membership__txt {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--primary-txt-color);
 }
 
-.bodytext {
-    font-size: var(--p-fontsize);
+.membership__txt--margin {
+    margin-top: 5px;
 }
-
 
 
 /*price_section*/
-.price__wrapper {
+.price {
     margin-top: 50px;
     display: grid;
     grid-template-rows: 1fr;
     width: 100%;
 }
 
-.price__section__wrapper {
+.price__section {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     border-bottom: solid 2px var(--accent-color);
     margin-top: 15px;
 }
 
-.price__section__prices:last-of-type {
+.price__header {
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: var(--primary-txt-color);
+}
+
+.price__section-txt{
+    font-size: 1.6rem;
+    color: var(--primary-txt-color);
+}
+
+.price__section-prices:last-of-type {
 margin-left: auto;
 }
 
-/*erna*/
+/*#endregion .................. end member & price...... */
+
+/* #region ................ call erna...................... */
 
 .call-erna__header {
-    margin-top: 50px;
+    margin: 50px 25px;
+    margin-bottom: 5px;
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: var(--primary-txt-color);
 }
 
 .call-erna__wrapper {
     background-image: url("gfx/erna.png");
     width: 100%;
     background-repeat: no-repeat;
-    /*border: 1px solid white;*/
     position: relative;
-}
-
-
-.call-erna__name {
-    margin-top: 13px;
-}
-
-.name {
-    font-size: var(--p-fontsize);
-    font-weight: bold;
 }
 
 .erna-image {
     width: 100%;
 
 } 
+
 .call-erna__overlay {
     width: 100%;
     font-size: 13px;
     background-color: var(--accent-color);
-    opacity: 90%;
+    opacity: 95%;
   
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
-.call-erna__description-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-.call-erna__description {
-    padding: 25px 25px 0 25px;
+.call-erna__txt {
+    padding: 10px 25px;
     font-size: 1.6rem;
     font-weight: 400;
 }
 
-.erna-padding{
-    padding: 5px 25px 0 25px;
-}
-.call-erna__email {
-    margin-bottom: 25px;
+.call-erna__info {
+    margin: 5px 25px 25px 25px;
 }
 
+.call-erna__name {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
 
+.call-erna__info-txt {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 5px 0;
+}
+/*#endregion .................. end erna card ............*/
