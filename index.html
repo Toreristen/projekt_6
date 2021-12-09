@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Odense Højskoleforening har eksisteret siden 1896 og er en forening der styrker fællesskabet og demokratisk dannelse">
+    <meta name="theme-color" content="#a4c3b2">
+    <meta name="author" content="Kasper Ptak, Tore Eskildsen, Maria Solsikke, Danni Dong">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Web, Education, medlemsskab, højskole, Højskoleforening, OH, OH-Odense, Odense, Fyn, arrangementer, foredrag, forening, projekt">
     <title>Odense Højskoleforening</title>
     <link rel="stylesheet" href="content/css/main.css">
     <link rel="stylesheet" href="content/css/member.css">
     <link rel="stylesheet" href="content/css/frontpage.css">
+    <link rel="stylesheet" href="content/css/slideshow.css">
     <link rel="stylesheet" href="https://use.typekit.net/egq1yjh.css">
     <script src="https://kit.fontawesome.com/bd8605f5df.js" crossorigin="anonymous"></script>
     <script src="content/js/menu.js" defer></script>
     <script src="content/js/dropdown.js" defer></script>
+    <script src="content/js/slide.js" defer></script>
 </head>
 
 <body>
@@ -24,7 +30,7 @@
                         
             <ul class="nav__list">
                 <li class="nav__list-item">
-                    <a href="content/" class="nav__anchor">
+                    <a href="content/subpages/program.html" class="nav__anchor">
                         <img class="nav__img" src="content/logos/program.svg" alt="program logo" id="program-icon">
                     </a>
                 </li>
@@ -48,7 +54,7 @@
                     <a href="../../index.html" class="nav__menu-list-item">Forside</a>
                 </li>
                 <li class="nav__menu-list-item">
-                    <a href="../subpages/program.html" class="nav__menu-list-item">Program 21/22 
+                    <a href="content/subpages/program.html" class="nav__menu-list-item">Program 21/22 
                         <a class="nav__dropdown-arrow" href="#"><i class="fas fa-chevron-down"></i></a>
                         <a class="nav__dropdown-arrow-2" href="#"><i class="fas fa-chevron-up"></i></a>
                     </a>
@@ -84,9 +90,26 @@
         </div>
         
     </nav>
+    
+    <header class="slideshow__wrapper">
+        <div class="slideshow__description__wrapper">
+            <h2 class="slideshow__description__header bodytext_color" id="slideshow_heading">Sang aften</h2>
+            <p class="slideshow__description__bodytext bodytext_color" id="slideshow_bodytext">Oplev en
+                hyggelig sangaften med<br>Jørgen Carlsen
+                d.15/9</p>
 
-    <header class="header">
+            <a class="slideshow__showmore" href="#">Se mere</a>
+        </div>
 
+        <div class="slideshow__picture">
+
+            <img src="../img/placeholder/danni2.png" id="slider" alt="slider">
+        </div>
+        <div class="dots__wrapper">
+            <a id="dot1" class="dots" onclick="firstDot()"></a>
+            <a id="dot2" class="dots" onclick="secondDot()"></a>
+            <a id="dot3" class="dots" onclick="thirdDot()"></a>
+        </div>
     </header>
 
     <section class="program">
