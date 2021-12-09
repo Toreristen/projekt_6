@@ -187,6 +187,7 @@ justify-content: center;
 align-items: center;
 color: var(--secondary-txt-color);
 float: right;
+cursor: pointer;
 }
 
 /*#endregion .................end contact............*/
