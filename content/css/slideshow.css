@@ -56,6 +56,10 @@ font-weight: 600;
     opacity: 100%;
     
 }
+
+.clear {
+    clear: both;
+}
 .slideshow__showmore:hover {
     background-color: var(--btn-hover);
 }
