@@ -1,5 +1,5 @@
 let slideIndex = 0;
-let images = ["../img/placeholder/danni2.png", "../img/placeholder/danni3.png", "../img/placeholder/danni7.png"];
+let images = ["./content/img/placeholder/danni2.png", "./content/img/placeholder/danni3.png", "./content/img/placeholder/danni7.png"];
 let dotColor = ["#eaf4f4", "#6b9080"];
 let image = document.getElementById("slider");
 
