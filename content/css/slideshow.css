@@ -84,10 +84,6 @@ font-weight: 600;
     background-color: var(--btn-hover);
 }
 
-.slideshow__picture {
-
-    
-}
 
 /*endregion...............slideshow.........*/
 
@@ -96,6 +92,7 @@ font-weight: 600;
     opacity: 100%;
 }
 .slideshow__wrapper {
+    padding-top: 70px;
     position: relative;
     
 }
