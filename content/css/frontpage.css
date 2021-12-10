@@ -138,6 +138,11 @@
     font-weight: 600;
 }
 
+.call-erna__overlay {
+    background-color: var(--primary-color);
+    
+}
+
 .call-erna__intro {
     color: var(--primary-txt-color);
     margin: 5px 25px 20px 25px;
