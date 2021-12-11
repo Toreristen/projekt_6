@@ -17,11 +17,17 @@ function msgConfirm(){
     }
     else {
         container.style.display = "block"
-        alert("pop")
 
     }
 };
 
+
+let closebotton = document.getElementById('close-btn1')
+
+function closebtn(){
+    container.style.display = "none"
+    
+};
     
 /*    
     //let container = [navn, besked, email];
@@ -49,14 +55,6 @@ function msgConfirm(){
     
     };
     
-    
-    let lukKnap = document.getElementById('close-btn1')
-    
-        function closePopup() {
-    
-            lukKnap.style.display = "none"
-    
-        };
     
     
     

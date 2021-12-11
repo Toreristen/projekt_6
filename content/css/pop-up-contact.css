@@ -15,9 +15,13 @@
 .pop-up {}
 
 .close-pop-up-btn {
-    width: 10%;
-    height: 10%;
+   
     float: right;
+    
+}
+
+.close-pop-up-btn img {
+    width: 35px;
     
 }
 
