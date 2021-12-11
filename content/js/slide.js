@@ -91,6 +91,7 @@ function current() {
     image.src = images[slideIndex];
     slideIndex++;
     slideIndex = slideIndex % images.length;
+    console.log(1 % 2)
 
 
     dot1.style.transition = "0.5s";
