@@ -13,6 +13,7 @@
     <script src="https://kit.fontawesome.com/bd8605f5df.js" crossorigin="anonymous"></script>
     <script src="../js/menu.js" defer></script>
     <script src="../js/dropdown.js" defer></script>
+    <script src="../js/sorting.js" defer></script>
 </head>
 
 <body>
@@ -135,20 +136,20 @@
                     <h2>
                         Sortér
                     </h2>
-                    <select name="Category" id="">
-                        <option disabled selected value="">Vælg kategori</option>
-                        <option value="">Sangaften</option>
-                        <option value="">Foredrag</option>
-                        <option value="">Højskoleophold</option>
-                        <option value="">Vandretur</option>
-                        <option value="">Grundlovsmøde</option>
-                        <option value="">Udflugt</option>
+                    <select onchange="sortCategory()" name="category" id="select">
+                        <option selected value="default">Vælg kategori</option>
+                        <option value="sangaften">Sangaften</option>
+                        <option value="foredrag">Foredrag</option>
+                        <option value="hoejskoleophold">Højskoleophold</option>
+                        <option value="vandretur">Vandretur</option>
+                        <option value="grundlovsmoede">Grundlovsmøde</option>
+                        <option value="udflugt">Udflugt</option>
                     </select>
                 </div>
 
             </section>
 
-            <div class="program__card">
+            <div class="program__card sangaften" >
                 <img src="../img/oh_sangbog.png" alt="songbook" class="program__card-img">
                 <div class="program__card-info">
                     <h3 class="program__card-header">Sangaften med Jørgen Carlsen </h3>
@@ -166,7 +167,7 @@
                     </a>
                 </div>
             </div>
-            <div class="program__card">
+            <div class="program__card foredrag">
                 <img src="../img/oh_sangbog.png" alt="songbook" class="program__card-img">
                 <div class="program__card-info">
                     <h3 class="program__card-header"> Klimaet i fremtiden </h3>
@@ -184,7 +185,7 @@
                     </a>
                 </div>
             </div>
-            <div class="program__card">
+            <div class="program__card foredrag">
                 <img src="../img/oh_sangbog.png" alt="songbook" class="program__card-img">
                 <div class="program__card-info">
                     <h3 class="program__card-header"> Pandemier </h3>
