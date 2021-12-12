@@ -1,5 +1,5 @@
 let slideIndex = 0;
-let images = ["../img/placeholder/danni2.png", "../img/placeholder/danni3.png", "../img/placeholder/danni7.png"];
+let images = ["./content/img/klima.jpg", "./content/img/pandemier.jpg", "./content/img/sangaften.jpg"];
 let dotColor = ["#eaf4f4", "#6b9080"];
 let image = document.getElementById("slider");
 
@@ -80,7 +80,7 @@ function descriptionDotsChange() {
         slideOne();
     }
     else if (slideIndex == 1) {
-        slideTwo()
+        slideTwo();
     }
     else if (slideIndex == 2) {
         slideThree();
@@ -91,6 +91,7 @@ function current() {
     image.src = images[slideIndex];
     slideIndex++;
     slideIndex = slideIndex % images.length;
+
 
 
     dot1.style.transition = "0.5s";
