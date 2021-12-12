@@ -80,7 +80,7 @@ function descriptionDotsChange() {
         slideOne();
     }
     else if (slideIndex == 1) {
-        slideTwo()
+        slideTwo();
     }
     else if (slideIndex == 2) {
         slideThree();
