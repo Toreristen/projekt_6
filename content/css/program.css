@@ -87,4 +87,8 @@
     box-shadow: 1px 2px #23272a22;
 }
 
+.program__card img {
+    object-fit: cover;
+}
+
 /* #endregion */
