@@ -34,7 +34,7 @@ img-fluid img {
 
 /* #endregion .............. END ROOT ..................*/
 
-/*#region ...................NAVIGATION.....................*/
+/*#region ................... MOBILE NAVIGATION.....................*/
 
 .nav__wrapper {
     display: flex;
@@ -145,6 +145,43 @@ img-fluid img {
 }
 
 /* #endregion .............END NAVIGATION......................*/
+
+/*#region ......................DESKTOP NAV................... */
+.nav-dt {
+    width: 100%;
+    min-height: 100px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-dt__logo {
+    margin: 0 50px;
+    width: 150px;
+}
+
+.nav-dt__list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.nav-dt__list-anchor {
+    color: var(--primary-txt-color);
+    font-size: 3.2rem;
+    text-decoration: none;
+    margin: 0 20px;
+    
+}
+
+.nav-dt__list-anchor:hover {
+    text-decoration: underline;
+}
+
+
+/*#endregion ............. END DESKTOP NAV...................... */
 
 /*#region ....................FOOTER...........................*/
 
