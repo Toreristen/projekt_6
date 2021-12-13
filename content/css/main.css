@@ -129,6 +129,7 @@ img-fluid img {
 
 .nav__dropdown-arrow {
     color: var(--primary-txt-color);
+    cursor: pointer;
 }
 
 .nav__dropdown-arrow-2 {
