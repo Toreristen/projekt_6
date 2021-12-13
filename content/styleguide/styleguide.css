@@ -308,6 +308,149 @@ main article {
 }
 
 
+
+.contact-form {
+    justify-content: center;
+    margin: 50px 25px;
+    width: 40%;
+}
+
+.contact__form__name {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.contact__name {
+    display:flex; 
+    width: 100%;
+}
+.contact__input {
+    width: 100%;
+}
+
+.contact__textform {
+    width: 100%;
+}
+
+.contact__message {
+    height: 100px;
+}
+
+.input__form {
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.contactform-textform__button {
+    width: 160px;
+    height: 42px;
+    /*padding: 5px 31px;*/
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: var(--btn-color);
+    border-radius: 5px;
+    box-shadow: 1px 2px #23272a66;
+    border: none;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-txt-color);
+    float: right;
+    cursor: pointer;
+    }
+
+
+    .program {
+        width: 30%;
+        height: 100%;
+        background: var(--primary-bg-color);
+    }
+    
+    
+    .program__intro {
+        color: var(--primary-txt-color);
+        margin: 0;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+    
+    .program__card {
+        width: auto;
+        height: auto;
+        margin: 0;
+        background-color: var(--secondary-bg-color);
+        border-radius: 5px;
+        box-shadow: 1px 2px #23272a22;
+    }
+    
+    .program__card img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .program__card-header {
+        color: var(--primary-txt-color);
+        font-size: 2rem;
+        font-weight: 600;
+        margin-left: 15px;
+    }
+
+    .program__card-location {
+        color: var(--primary-txt-color);
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 15px;
+    }
+
+    .program__card-txt {
+        font-size: 1.3rem;
+        margin: 10px 0 0 15px;
+    }
+
+    
+.program__card-see-more {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+.program__card-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 15px 15px 15px;
+    padding-bottom: 15px;
+}
+
+    .btn-small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: var(--btn-color);
+    border-radius: 5px;
+    box-shadow: 1px 2px #23272a66;
+    
+    width: 40%;
+    height: auto;
+    color: var(--secondary-txt-color);
+    text-transform: uppercase;
+    font-size: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+
 /* #region  navigation */
 .nav__menu {
     background-color: var(--primary-color);

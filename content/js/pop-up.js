@@ -1,4 +1,4 @@
-let navn = document.getElementById('fname');
+    let navn = document.getElementById('fname');
     let efternavn =document.getElementById('lname');
     let email= document.getElementById('email-input');
     let emne =document.getElementById('topic');

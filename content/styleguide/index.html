@@ -376,11 +376,58 @@
                 </h1>
 
                 <section>
+
                     content ui
+
                     <br>
+
                     begivenheder cards
-                    <br>
-                    vores form (kontaktform)
+
+                    <section class="program">
+                        
+                        <div class="program__card sangaften" >
+                        <img src="../img/oh_sangbog.png" alt="songbook" class="program__card-img">
+                        <div class="program__card-info">
+                            <h3 class="program__card-header">Sangaften med Jørgen Carlsen </h3>
+                            <p class="program__card-location">
+                                <i> D. 15 marts 2021 - Klokken 19:00 <br> Henriette Hørlücks skole </i>  
+                            </p>
+                            <p class="program__card-txt">
+                                Oplev en hyggelig sangaften med Jørgen Carlsen.
+                            </p>
+                        </div>
+                        <div class="program__card-cta">
+                            <a class="program__card-see-more">se mere</a>
+                            <a href="#" class="btn-small">
+                                Tilmeld
+                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </section>
+
+                    <section class="contact-form" id="form-contact">
+                        <h2 class="contact__header">Du kan også skrive til os her</h2>
+                
+                        <form class="contact__form">
+                            <div class="contact__form__name">
+                                <input class="input__form" id="fname" type="text" placeholder="Fornavn">
+                                <input class="input__form" id="lname" type="text" placeholder="efternavn">
+                            </div>
+                
+                            <div class="contact__textform">
+                                <input class="contact__input input__form" id="email-input" type="email" placeholder="Email">
+                                <input class="contact__input input__form" id="topic" type="text" placeholder="Emne">
+                                <textarea class="contact__message contact__input" placeholder="Skriv besked"></textarea>
+                                <p class="contact__form__fill input__form">* Email, emne og besked skal udfyldes.</p>
+                            </div>
+                        </form>
+                
+                        <div class="contact__send__btn" id="send">
+                            <button class="contactform-textform__button" onclick="msgConfirm()">Send</button>
+                        </div>
+                    </section>
+
                 </section>
 
                 <section>
