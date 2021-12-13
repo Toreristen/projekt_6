@@ -1,34 +1,34 @@
-    let navn = document.getElementById('fname');
-    let efternavn =document.getElementById('lname');
-    let email= document.getElementById('email-input');
-    let emne =document.getElementById('topic');
-    let container = document.getElementById('pop-up-container');
-    let besked = 'Vi har modtaget din besked og vi vil vende tilbage til dig hurtigst muligt. Vi har sendt et kvittering på at beskeden er sendt til din email';
-    
+let navn = document.getElementById('fname');
+let efternavn = document.getElementById('lname');
+let email = document.getElementById('email-input');
+let emne = document.getElementById('topic');
+let container = document.getElementById('pop-up-container');
+let besked = 'Vi har modtaget din besked og vi vil vende tilbage til dig hurtigst muligt. Vi har sendt et kvittering på at beskeden er sendt til din email';
 
-function msgConfirm(){
-    
-    
-    if( navn.value.length == 0 && email.value.length == 0){
+
+function msgConfirm() {
+
+
+    if (navn.value.length == 0 && email.value.length == 0) {
         console.log("adganskode og email og bekræft er tom");
         container.style.display = "none"
         alert("tom")
-        
+
     }
     else {
         container.style.display = "block"
 
     }
-};
+}
 
 
 let closebotton = document.getElementById('close-btn1')
 
-function closebtn(){
+function closebtn() {
     container.style.display = "none"
-    
-};
-    
+
+}
+
 /*    
     //let container = [navn, besked, email];
     
@@ -80,7 +80,6 @@ function closebtn(){
     form.addEventListener('send', handleForm);
     
     */
-    
-    
-    
-    
+
+
+
