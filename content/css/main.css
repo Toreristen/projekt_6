@@ -153,7 +153,7 @@ img-fluid img {
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     visibility: hidden;
     padding-bottom: 5px;
 }
@@ -170,17 +170,28 @@ img-fluid img {
     margin-right: 30px;
 }
 
+.nav-dt__list {
+    align-items: baseline;
+}
+
 .nav-dt__list-anchor {
     color: var(--primary-txt-color);
     font-size: 2.8rem;
+    font-weight: 500;
     text-decoration: none;
-    margin: 0 20px;
-    
+    margin: 0 10px;
 }
 
 .nav-dt__list-anchor:hover {
     text-decoration: underline;
 }
+
+.nav-dt__dropdown-arrow {
+    font-size: 2.2rem;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
 
 
 /*#endregion ............. END DESKTOP NAV...................... */
