@@ -1,11 +1,11 @@
 
 
-let select = document.getElementById('select')
-let cards = document.getElementsByClassName('program__card')
+const select = document.getElementById('select')
+const cards = document.getElementsByClassName('program__card')
 
 const categories = ["sangaften", "foredrag", "hoejskoleophold", "vandretur", "grundlovsmoede", "udflugt"]
 
-var classes = document.getElementsByClassName("program__card");
+const classes = document.getElementsByClassName("program__card");
 
 
 function sortCategory() {
@@ -56,7 +56,7 @@ function sortCategory() {
 
 function checkClasses(parameter) {
 
-    for (var i = 0; i < classes.length; i++) {
+    for (let i = 0; i < classes.length; i++) {
         console.log(classes[i]);
         if (classes[i].classList.contains(parameter)) {
             classes[i].style.display = "block"
