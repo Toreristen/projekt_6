@@ -149,11 +149,13 @@ img-fluid img {
 /*#region ......................DESKTOP NAV................... */
 .nav-dt {
     width: 100%;
-    min-height: 100px;
+    height: 80px;
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+    visibility: hidden;
+    padding-bottom: 5px;
 }
 
 .nav-dt__logo {
@@ -170,7 +172,7 @@ img-fluid img {
 
 .nav-dt__list-anchor {
     color: var(--primary-txt-color);
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     text-decoration: none;
     margin: 0 20px;
     
@@ -259,7 +261,7 @@ img-fluid img {
 
 /*#endregion ...................END FOOTER......................*/ 
 
-/*#region ...................Media queries .................... */
+/*#region ................... Mobile Mediaqueries .................... */
 
 @media only screen and (max-width: 380px){
 
@@ -291,3 +293,17 @@ img-fluid img {
     }
 
 /*#endregion ................. END MEDIA QUERIES .............. */
+
+
+/*"region ....... Desktop media queries...........*/
+@media only screen and (min-width: 1025px){
+
+    /*#region .............. Navbar .........................*/
+    .nav-dt {
+        visibility: visible;
+    }
+    
+    /*#endregion .......... END NAVBAR ........................*/
+        
+    }
+/*#endregion ......... End desktop mediaqueries*/
