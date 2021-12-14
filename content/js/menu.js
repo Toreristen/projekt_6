@@ -1,3 +1,4 @@
+//Made by Tore
 //console.log("js linked");
 
 const menuIcon = document.querySelector("#hamburger");

@@ -1,3 +1,5 @@
+//Maria
+
 let navn = document.getElementById('fname');
 let efternavn = document.getElementById('lname');
 let email = document.getElementById('email-input');
