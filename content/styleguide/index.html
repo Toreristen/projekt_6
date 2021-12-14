@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Styleguide OH</title>
 
-    <link rel="stylesheet" href="../css/main.css">
+    <!-- <link rel="stylesheet" href="../css/main.css"> -->
     <link rel="stylesheet" href="styleguide.css">
 
     <link rel="stylesheet" href="https://use.typekit.net/egq1yjh.css">
 
     <script src="../js/menu.js" defer></script>
+    <script src="../js/codesnippet.js" defer></script>
 
 </head>
 
@@ -173,34 +174,66 @@
                 <section>
 
                     <p class="font__txt1">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus quae facilis officiis esse,
-                        quis minima nulla cum nam sint quos repellat perspiciatis, hic molestiae perferendis. Ipsam
-                        excepturi, iure, explicabo aut facilis voluptatibus accusamus corrupti velit eius cumque neque!
+                        Se Programmet for 21/22
                     </p>
-                    <h3>
-                        Pelago, sans-serif, 14px, 400 Font weight
-                    </h3>
+                    <h4>
+                        H1 - 32px Pelago 600
+                    </h4>
 
                 </section>
 
                 <section>
 
                     <p class="font__txt2">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus quae facilis officiis esse,
-                        quis minima nulla cum nam sint quos repellat perspiciatis, hic molestiae perferendis. Ipsam
-                        excepturi, iure, explicabo aut facilis voluptatibus accusamus corrupti velit eius cumque neque!
+                        Sangaften med Jørgen Carlsen
                     </p>
-                    <h3>
-                        Pelago, sans-serif, 18px, 600 Font weight
-                    </h3>
+                    <h4>
+                        H2 - 26px Pelago 600
+                    </h4>
 
                 </section>
 
                 <section>
-                    <h5>
-                        Der er valgt en
 
-                        Why this? and where this?
+                    <p class="font__txt3">
+                        Oplev en hyggelig sangaften med Jørgen Carlsen
+                    </p>
+                    <h4>
+                        Bodytext 01 - 18px Pelago 400
+                    </h4>
+
+                </section>
+
+                <section>
+
+                    <p class="font__txt4">
+                        Ring og tag en snak med Erna og bliv klogere på vores forening og hvad vi kan tilbyde dig.
+                        <br>
+                        Erna vil med glæde svare på alle de spørgsmål du har, så du kan finde ud af om Odense Højskole
+                        er noget for dig.
+                    </p>
+                    <h4>
+                        Bodytext 02 - 16px Pelago 400
+                    </h4>
+
+                </section>
+
+                <section>
+
+                    <p class="font__txt5">
+                        D. 15 marts 2021 - Klokken 19:00
+                        på Henriette Hørlücks skole
+                    </p>
+                    <h4>
+                        Italic Text - 14px Pelago 400 italic
+                    </h4>
+
+                </section>
+
+                <section>
+
+                    <h5>
+                        Typografien er en større skrifttype, samt en font med san sarif, da det er bedre ifht læsevenligheden på web. 
                     </h5>
                 </section>
             </article>
@@ -234,11 +267,14 @@
                 <section>
 
                     <p>
-                        why this?
+                        Der er blevet valgt en blå farver til knapperne for at skabe en god kontrast.
+                        Knapperne er lavet næsten helt firkantede da det passer med resten af designet, uden det er
+                        fuldt kantet, som ville virke lidt for seriøst.
                     </p>
 
                     <p>
-                        where this?
+                        Knapperne skal bruges når der skal foretages en handling.
+                        De skal hjælpe/guide brugeren til at trykke på de interessante steder på hjemmesiden.
                     </p>
 
 
@@ -382,13 +418,49 @@
                     Ui Patterns
                 </h1>
 
-                <section>
+                <section style="margin: auto;">
 
-                    content ui
+                    <div class="call-erna__desktop-wrapper">
+                        <section class="call-erna">
+                            <h2 class="call-erna__header">
+                                Ring eller skriv til Erna
+                            </h2>
+
+                            <div class="call-erna__wrapper">
+                                <img class="erna-image" src="../img/erna_v2-min-min.jpg" alt="image-of-erna">
+
+                                <div class="call-erna__overlay">
+                                    <p class="call-erna__txt">Ring og tag en snak med Erna og bliv klogere på vores
+                                        forening
+                                        og hvad vi kan tilbyde dig. <br>
+                                        Erna vil med glæde svare på alle de spørgsmål du har, så du kan
+                                        finde ud af om Odense Højskole er noget for dig.
+                                    </p>
+                                    <div class="call-erna__flex">
+                                        <div class="call-erna__info">
+                                            <h3 class="call-erna__name">Erna Overgaard</h3>
+                                            <p class="call-erna__info-txt">Kasserer</p>
+                                            <p class="call-erna__info-txt"><i class="fas fa-phone-alt"></i> +45 12 34 56
+                                                78</p>
+                                            <p class="call-erna__info-txt"><i class="fas fa-envelope"></i> Kassere@oh.dk
+                                            </p>
+                                        </div>
+                                        <div class="program__btn">
+                                            <a href="content/subpages/membership.html"
+                                                class="btn-medium btn-medium--membership">
+                                                tryk her
+                                            </a>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
 
                     <br>
-
-                    begivenheder cards
 
                     <section class="program">
 
@@ -439,7 +511,187 @@
                 </section>
 
                 <section>
-                    why how what osv
+                    <br>
+                    <h5>
+                        Eksempler på forskellige design ellementer på vores hjemmeside.
+                    </h5>
+
+                    <div class="scrollable">
+                        <p>
+                            <b> Kode til "contact erna" card </b>
+                        </p>
+                        <p>
+                            &lt;div class="call-erna__desktop-wrapper">
+                            <br>
+                            &lt;section class="call-erna"&gt;
+                            <br>
+                            &lt;h2 class="call-erna__header"&gt;
+                            <br>
+                            Ring eller skriv til Erna
+                            <br>
+                            &lt;/h2&gt;
+                            <br>
+
+                            &lt;div class="call-erna__wrapper"&gt;
+                            <br>
+                            &lt;img class="erna-image" src="../img/erna_v2-min-min.jpg" alt="image-of-erna"&gt;
+                            <br>
+                            &lt;img class="erna-image-desktop" src="content/img/erna_cropped.jpg" alt="desktop-erna"&gt;
+                            <br>
+                            &lt;div class="call-erna__overlay"&gt;
+                            <br>
+                            &lt;p class="call-erna__txt"&gt;Ring og tag en snak med Erna og bliv klogere på vores
+                            forening
+                            <br>
+                            og hvad vi kan tilbyde dig. &lt;br&gt;
+                            <br>
+                            Erna vil med glæde svare på alle de spørgsmål du har, så du kan
+                            <br>
+                            finde ud af om Odense Højskole er noget for dig.
+                            <br>
+                            &lt;/p&gt;
+                            <br>
+                            &lt;div class="call-erna__flex"&gt;
+                            <br>
+                            &lt;div class="call-erna__info"&gt;
+                            <br>
+                            &lt;h3 class="call-erna__name"&gt;Erna Overgaard&lt;/h3&gt;
+                            <br>
+                            &lt;p class="call-erna__info-txt"&gt;Kasserer&lt;/p&gt;
+                            <br>
+                            &lt;p class="call-erna__info-txt"&gt;&lt;i class="fas fa-phone-alt"&gt;&lt;/i&gt; +45 12 34
+                            56 78&lt;/p&gt;
+                            <br>
+                            &lt;p class="call-erna__info-txt"&gt;&lt;i class="fas fa-envelope"&gt;&lt;/i&gt;
+                            Kassere@oh.dk&lt;/p&gt;
+                            <br>
+                            &lt;/div&gt;
+                            <br>
+                            &lt;div class="program__btn"&gt;
+                            <br>
+                            &lt;a href="content/subpages/membership.html" class="btn-medium btn-medium--membership"&gt;
+                            <br>
+                            tryk her
+                            <br>
+                            &lt;/a&gt;
+                            <br>
+                            &lt;/div&gt;
+                            <br>
+                            &lt;/div&gt;
+                            <br>
+
+
+                            &lt;/div&gt;
+                            <br>
+                            &lt;/div&gt;
+                            <br>
+                            &lt;/section&gt;
+                            <br>
+                            &lt;/div&gt;
+                            <br>
+                        </p>
+
+                    </div>
+
+
+                    <div class="scrollable">
+                        <p>
+                            <b> Kode til "program" card </b>
+                        </p>
+                        <p>
+                            &lt;div class="program__card sangaften"&gt;
+                            <br>
+                            &lt;img src="../img/oh_sangbog.png" alt="songbook" class="program__card-img"&gt;
+                            <br>
+                            &lt;div class="program__card-info"&gt;
+                            <br>
+                            &lt;h3 class="program__card-header"&gt;Sangaften med Jørgen Carlsen &lt;/h3&gt;
+                            <br>
+                            &lt;p class="program__card-location"&gt;
+                            <br>
+                            &lt;i&gt; D. 15 marts 2021 - Klokken 19:00 &lt;br&gt; Henriette Hørlücks skole &lt;/i&gt;
+                            <br>
+                            &lt;/p&gt;
+                            <br>
+                            &lt;p class="program__card-txt"&gt;
+                            <br>
+                            Oplev en hyggelig sangaften med Jørgen Carlsen.
+                            <br>
+                            &lt;/p&gt;
+                            <br>
+                            &lt;/div&gt;
+                            <br>
+                            &lt;div class="program__card-cta"&gt;
+                            <br>
+                            &lt;a class="program__card-see-more"&gt;se mere&lt;/a&gt;
+                            <br>
+                            &lt;a href="#" class="btn-small"&gt;
+                            <br>
+                            Tilmeld
+                            <br>
+                            &lt;/a&gt;
+                            <br>
+                            &lt;/div&gt;
+                            <br>
+                            &lt;div class="clear"&gt;&lt;/div&gt;
+                            <br>
+                            &lt;/div&gt;
+
+                            <br>
+                        </p>
+
+                    </div>
+
+                    <div class="scrollable">
+                        <p>
+                            <b> Kode til "contact formular" card </b>
+                        </p>
+                        <p>
+                            &lt;section class="contact-form" id="form-contact">
+                            <br>
+                            &lt;h2 class="contact__header" &lt;Du kan også skrive til os her &lt;/h2&gt;
+                            <br>
+
+                            &lt;form class="contact__form"&gt;
+                            <br>
+                            &lt;div class="contact__form__name"&gt;
+                            <br>
+                            &lt;input class="input__form" id="fname" type="text" placeholder="Fornavn"&gt;
+                            <br>
+                            &lt;input class="input__form" id="lname" type="text" placeholder="efternavn"&gt;
+                            <br>
+                            &lt;/div&gt;
+                            <br>
+                            &lt;div class="contact__textform"&gt;
+                            <br>
+                            &lt;input class="contact__input input__form" id="email-input" type="email"
+                            <br>
+                            placeholder="Email"&gt;
+                            <br>
+                            &lt;input class="contact__input input__form" id="topic" type="text" placeholder="Emne"&gt;
+                            <br>
+                            &lt;textarea class="contact__message contact__input" placeholder="Skriv besked"&gt;
+                            &lt;/textarea&gt;
+                            <br>
+                            &lt;p class="contact__form__fill input__form"&gt;* Email, emne og besked skal udfyldes.
+                            &lt;/p&gt;
+                            <br>
+                            &lt;/div&gt;
+                            <br>
+                            &lt;/form&gt;
+                            <br>
+                            &lt;div class="contact__send__btn" id="send"&gt;
+                            <br>
+                            &lt;button class="contactform-textform__button"&gt;Send &lt;/button&gt;
+                            <br>
+                            &lt;/div&gt;
+                            <br>
+                            &lt;/section&gt;
+                        </p>
+
+                    </div>
+
+
                 </section>
 
             </article>
@@ -495,10 +747,7 @@
                                 <a href="" class="nav__menu-list-item">kontakt os</a>
                             </li>
                         </ul>
-                        <div class="footer__some footer__some--active">
-                            <a href="" class="footer__some-logo"><i class="fab fa-facebook-square"></i></a>
-                            <p class="footer__some-txt">Vi er på Facebook!</p>
-                        </div>
+
                     </div>
 
                 </nav>
@@ -510,7 +759,7 @@
                         under for maksimal læsevenlighed.
                     </h5>
                     <br>
-                    <p>
+                    <p class="scrollable">
 
                         &lt;nav class="nav"&gt;
                         <br>
