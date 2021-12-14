@@ -157,6 +157,7 @@ img-fluid img {
     align-items: center;
     padding-bottom: 5px;
     z-index: 3;
+    position: fixed;
 }
 
 .nav-dt__logo {

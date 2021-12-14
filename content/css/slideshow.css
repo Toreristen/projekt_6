@@ -60,7 +60,7 @@ font-weight: 600;
     
 } */
 
-/* .btn-small {
+ .btn-small {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,8 +75,14 @@ font-weight: 600;
     font-size: 2rem;
     cursor: pointer;
     text-decoration: none;
-} */
+} 
 
+
+.btn-small--right {
+    display: flex;
+    justify-content: center;
+float: right;
+}
 .clear {
     clear: both;
 }
@@ -133,4 +139,9 @@ font-weight: 600;
        padding-top: 0;
    }
         
+   .slideshow__description__wrapper {
+    top: 60%;
+    right: 10%;
+    width: 35%;
+   }
     }

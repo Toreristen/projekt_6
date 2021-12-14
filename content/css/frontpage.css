@@ -69,6 +69,12 @@
     border-radius: 5px 5px 0 0;
 }
 
+.program__card-image-tablet {
+    display: none;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
 .program__card-header {
     color: var(--primary-txt-color);
     font-size: 2.6rem;
@@ -150,6 +156,11 @@
     margin-right: 0;
 }
 
+.erna-image-desktop {
+    display: none;
+    width: 100%;
+}
+
 .call-erna__overlay {
     background-color: var(--primary-color);
     
@@ -176,7 +187,31 @@
 
 /*#region ............... MEDIA QUERIES.................. */
 
+@media only screen and (min-width: 650px) {
+    .program__card-image-tablet {
+        display: block;
+    }
+    .program__card-img {
+        display: none;
+    }
+    
+    .erna-image {
+        display: none;
+        width:100%;
+    }
+
+    .erna-image-desktop {
+        display: block;
+    }
+}
+
 @media only screen and (min-width: 1025px){
+
+    #slider {
+        max-height: 90vh;
+        object-fit: cover;
+    }
+
     .btn-medium {
         width: 220px;
         margin-right: 100px;
@@ -209,7 +244,7 @@
     }
 
     .erna-image {
-        display: none
+        display: none;
     }
 
     .erna-image-desktop {
