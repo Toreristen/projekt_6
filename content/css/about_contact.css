@@ -197,8 +197,19 @@ cursor: pointer;
         display: block;
         margin: 0 10%;
     }
+
+    .contact__header {
+        margin-top: 2%;
+    }
     .contact-form {
         display: block;
         margin: 0 11%;
+    }
+    .contact__send__btn {
+        margin-bottom: 10%;
+    }
+    .about-us__wrapper {
+        display: block;
+        margin: 0 10%;
     }
 }
