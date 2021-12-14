@@ -115,9 +115,26 @@ margin-left: auto;
 /*#endregion .................. end erna card ............*/
 
 @media only screen and (min-width: 650px) {
+
+    .membership {
+        margin: 0;
+       }
     
-    .erna-image {
-        
+    .call-erna__overlay {
+        height: 260px;
+    }
+
+    .call-erna__txt {
+        padding-top: 25px;
+        padding-left: 40px;
+    }
+
+    .call-erna__info {
+        margin: 25px 25px 25px 40px;
+        font-size: 1.8rem;
+    }
+
+    .erna-image { 
         display: none;
     } 
     

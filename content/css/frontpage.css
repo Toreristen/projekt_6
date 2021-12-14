@@ -212,6 +212,10 @@
         object-fit: cover;
     }
 
+    .dots__wrapper {
+        margin: 0;
+    }
+
     .btn-medium {
         width: 220px;
         margin-right: 100px;
@@ -269,6 +273,7 @@
 
     .call-erna__info {
         margin: 25px 25px 25px 40px;
+        font-size: 1.8rem;
     }
 
 
