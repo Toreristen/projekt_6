@@ -191,3 +191,14 @@ cursor: pointer;
 }
 
 /*#endregion .................end contact............*/
+
+@media only screen and (min-width: 650px) {
+    .contact {
+        display: block;
+        margin: 0 10%;
+    }
+    .contact-form {
+        display: block;
+        margin: 0 11%;
+    }
+}
