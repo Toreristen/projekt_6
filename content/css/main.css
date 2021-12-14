@@ -157,6 +157,7 @@ img-fluid img {
     align-items: center;
     visibility: hidden;
     padding-bottom: 5px;
+    
 }
 
 .nav-dt__logo {
@@ -210,10 +211,14 @@ img-fluid img {
     font-weight: 500;
     padding-left: 5px;
     padding-bottom: 5px;
-    
 }
 
-
+.nav-dt__dropdown-arrow-2-list-a:hover {
+    text-decoration: underline;
+    /* font-weight: 600; */
+    /* transform: scale(1.1); */
+    /* padding-left: 4px; */
+}
 
 /*#endregion ............. END DESKTOP NAV...................... */
 

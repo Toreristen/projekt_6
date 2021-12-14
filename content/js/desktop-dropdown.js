@@ -1,30 +1,19 @@
 //Made by Tore
 console.log("dropdown work");
 
-/*const dropDownList = document.querySelector("");
-const dropDownItem = document.querySelectorAll("");
-const arrowIconUp = document.querySelector("");*/
+const dropDownList2 = document.querySelector(".nav-dt__dropdown-arrow-2-list");
+
 const arrowIconDown = document.querySelector(".arrow-2");
-//dropDownList.style.display = "none";
-//arrowIconDown.style.display = "none";
+dropDownList2.style.display = "none";
 
 function dropDownDesktop() {
     console.log("function 1 works")
-    /*
-    if (dropDownList.style.display == "none") {
-        dropDownList.style.display = "initial";
-        arrowIconUp.style.display = "none";
-        arrowIconDown.style.display = "initial";
-        dropDownList.classList.remove("show__dropdown");
-
+    
+    if (dropDownList2.style.display === "none") {
+        dropDownList2.style.display = "flex";
     } else {
-        dropDownList.style.display = "none";
-        arrowIconUp.style.display = "initial";
-        arrowIconDown.style.display = "none";
-        dropDownList.classList.add("show__dropdown");
+        dropDownList2.style.display = "none";
     }
-    */
 }
 
-//arrowIconUp.addEventListener("click", dropDownDesktop);
 arrowIconDown.addEventListener("click",dropDownDesktop);
