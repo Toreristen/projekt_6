@@ -131,6 +131,9 @@
 
 /*#region ....................... MEMBERSHIP ...............*/
 
+.call-erna__desktop-wrapper {
+    width: 100%;
+}
 
 .call-erna__header {
     color: var(--primary-txt-color);
@@ -138,6 +141,13 @@
     margin: 0;
     font-size: 3.2rem;
     font-weight: 600;
+}
+
+.call-erna-desktop {
+    display: none;
+    width:100%;
+    object-fit: contain;
+    margin-right: 0;
 }
 
 .call-erna__overlay {
@@ -168,7 +178,12 @@
 
 @media only screen and (min-width: 1025px){
     .btn-medium {
-        max-width: 220px;
+        width: 220px;
+        margin-right: 100px;
+    }
+
+    .btn-medium--membership {
+        margin-right: 40px;
     }
 
     .program__card {
@@ -181,11 +196,45 @@
     }
     
     .program__intro {
-        margin: 10px 25px 0 80px;
+        margin: 10px 25px 0 100px;
     }
 
     .program__card-img {
         height: 404px;
     }
+
+    .call-erna__header {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .erna-image {
+        display: none
+    }
+
+    .erna-image-desktop {
+        height: 600px;
+        object-fit:cover;
+        display: block;
+    }
+
+    .call-erna__desktop-wrapper {
+        width:80%;
+        margin: auto;
+    }
+
+    .call-erna__overlay {
+        height: 260px;
+    }
+
+    .call-erna__txt {
+        padding-top: 25px;
+        padding-left: 40px;
+    }
+
+    .call-erna__info {
+        margin: 25px 25px 25px 40px;
+    }
+
 
 /*#endregion*/

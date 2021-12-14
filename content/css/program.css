@@ -3,6 +3,12 @@
     padding-top: 125px;
     margin: 0 25px;
 }
+@media only screen and (min-width: 1025px){
+    .wrap {
+        width: 80%;
+        margin: auto;
+    }
+}
 
 .program {
     display: grid;
@@ -48,11 +54,9 @@
     padding: 6px;
 }
 
-
 .program__more {
     text-align: center;
     font-size: 22px;
-    
 }
 
 .program__more a {
