@@ -73,8 +73,13 @@ margin-left: auto;
 
 .erna-image {
     width: 100%;
-
+    display: block;
 } 
+
+.erna-image-desktop {
+    width: 100%;
+    display: none;
+}
 
 .call-erna__overlay {
     width: 100%;
@@ -108,3 +113,41 @@ margin-left: auto;
     margin: 5px 0;
 }
 /*#endregion .................. end erna card ............*/
+
+@media only screen and (min-width: 650px) {
+    
+    .erna-image {
+        
+        display: none;
+    } 
+    
+    .erna-image-desktop {
+        display: block;
+        
+    }
+   .call-erna__wrapper {
+       display: block;
+       margin-right: auto;
+       margin-left: auto;
+       width: 80%;
+   }
+   .membership__wrapper {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+   }
+   .price {
+       display: block;
+       margin-right: auto;
+       margin-left: auto;
+       width: 80%;
+   }
+   .call-erna__header {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+   }
+  
+}
