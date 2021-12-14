@@ -7,6 +7,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 :root {
@@ -307,6 +308,10 @@ main article {
     width: 48px;
 }
 
+/* #region  Ui patterns */
+
+
+
 
 
 .contact-form {
@@ -450,14 +455,21 @@ main article {
     clear: both;
 }
 
+/* #endregion */
 
 /* #region  navigation */
+.nav__primary {
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+}
+
 .nav__menu {
     background-color: var(--primary-color);
     width: 100%;
     height: 100%;
     z-index: 8;
-    padding-top:100px;
+    /* padding-top:100px; */
     position: relative;
     visibility: hidden;
 }
@@ -465,6 +477,39 @@ main article {
 .nav__codesnippet {
     margin-top: -700px;
 }
+
+.nav__logo {
+
+    width: 100%;
+    max-width: 150px;
+    margin: 6px 0 15px 25px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-shrink: 1;
+    list-style: none;
+    margin: 0 25px 0 0;
+    padding: 38px 0 0 0;
+    
+    }
+    
+    .nav__list-item {
+        margin-left: 25px;
+    }
+    
+    .nav__img{
+        width: auto;
+        height: auto;
+    }
+
+    #closeicon {
+        display: none;
+    }
+
+    
 
 /* #endregion */
 
