@@ -334,6 +334,10 @@ img-fluid img {
 
 /*"region ....... Desktop media queries...........*/
 @media only screen and (min-width: 1025px){
+    .nav {
+        visibility: hidden;
+    }
+
 
     /*#region .............. Navbar .........................*/
     .nav-dt {

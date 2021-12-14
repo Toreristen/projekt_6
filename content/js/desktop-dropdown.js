@@ -3,7 +3,7 @@ console.log("dropdown work");
 
 const dropDownList2 = document.querySelector(".nav-dt__dropdown-arrow-2-list");
 
-const arrowIconDown = document.querySelector(".arrow-2");
+const arrowIconDown2 = document.querySelector(".arrow-2");
 dropDownList2.style.display = "none";
 
 function dropDownDesktop() {
@@ -16,4 +16,4 @@ function dropDownDesktop() {
     }
 }
 
-arrowIconDown.addEventListener("click",dropDownDesktop);
+arrowIconDown2.addEventListener("click",dropDownDesktop);
