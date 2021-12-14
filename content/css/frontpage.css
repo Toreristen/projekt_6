@@ -130,6 +130,8 @@
 /*#endregion ............................ END PROGRAM ...................*/
 
 /*#region ....................... MEMBERSHIP ...............*/
+
+
 .call-erna__header {
     color: var(--primary-txt-color);
     padding: 0 0 0 25px;
@@ -161,3 +163,29 @@
 }
 
 /*#endregion .................... END MEMBERSHIP ............*/
+
+/*#region ............... MEDIA QUERIES.................. */
+
+@media only screen and (min-width: 1025px){
+    .btn-medium {
+        max-width: 220px;
+    }
+
+    .program__card {
+        margin: 20px 100px;
+    }
+
+    .program__header {
+        padding: 25px 0 0 100px;
+        
+    }
+    
+    .program__intro {
+        margin: 10px 25px 0 80px;
+    }
+
+    .program__card-img {
+        height: 404px;
+    }
+
+/*#endregion*/

@@ -155,9 +155,8 @@ img-fluid img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    visibility: hidden;
     padding-bottom: 5px;
-    
+    z-index: 3;
 }
 
 .nav-dt__logo {
@@ -331,17 +330,31 @@ img-fluid img {
 
 /*#endregion ................. END MEDIA QUERIES .............. */
 
+@media only screen and (max-width: 1025px){
+    .nav-dt {
+        display: none;
+    }
+
+    .nav-dt__list {
+        display: none;
+    }
+
+    
+        
+}
 
 /*"region ....... Desktop media queries...........*/
 @media only screen and (min-width: 1025px){
     .nav {
-        visibility: hidden;
+        display: none;
     }
+
+    
 
 
     /*#region .............. Navbar .........................*/
     .nav-dt {
-        visibility: visible;
+        display: flex;
     }
     
     /*#endregion .......... END NAVBAR ........................*/
