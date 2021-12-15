@@ -211,6 +211,19 @@ color: var(--secondary-txt-color);
 
 /*#endregion .................end contact............*/
 
+@media only screen and (max-width: 360px) {
+    .team-wrapper {
+        height: 1620px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .team-wrapper {
+        height: 1520px;
+    }
+}
+
+
 @media only screen and (min-width: 650px) {
     .contact {
         display: block;
