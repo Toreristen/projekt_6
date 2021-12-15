@@ -41,6 +41,7 @@
     box-shadow: 1px 2px #23272a66;
     margin: 25px 25px 0 25px;
     max-width: 160px;
+    min-width: 120px;
     height: 42px;
     color: var(--secondary-txt-color);
     text-transform: uppercase;
@@ -96,6 +97,7 @@
 
 
 .program__card-see-more {
+    color: var(--primary-txt-color);
     text-transform: uppercase;
     text-decoration: underline;
     font-size: 1.8rem;
